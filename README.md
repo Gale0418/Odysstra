@@ -104,3 +104,17 @@ Odysstra 是以戰後返鄉為核心的 **2D 太空艦隊沙盒企劃**。第三
 - [宏觀世界觀會議歸檔](docs/meetings/2026-11-16-civilization-and-megastructures.md)
 
 **範圍聲明：**此系列為【研究／提案／內容庫／美術指定】，不擴大首版 P-001 開發、不修改百艘軍團返鄉與母星 Happy End 等已確認設定。過往討論使用《Stellaris》4.4.6 作參照；到 2026-11-16 已發布 **4.5.4（11 月 11 日）**，歷史數字需重新查核，不能當作本作已確認規則。本文僅新增設計文件，沒有加入遊戲執行程式或上傳本次概念畫原檔。
+
+
+## 2026-11-16｜文明級 AI、後稀缺與創世倫理研究歸檔
+
+從《最後的問題》2061 年太空太陽能站一路討論到艦載 Microvac、文明級 AC、AI 後工作社會、Cyberpunk／Star Trek／Solarpunk 等文明岔路、終極科技樹、模擬世界及造物者倫理，已於 2026-11-16 歸檔為以下**研究與靈感文件**：
+
+- [20｜太空太陽能與 AC 架構](docs/20-space-solar-and-ac-architecture.md)：包括一英里站的物理驗算、600 萬片模組的條件情境、私人 AI 與前沿 AC 的區別。
+- [21｜後工作社會與 AI 文明的八條路](docs/21-ai-society-and-post-work-futures.md)：生產力紅利、裁員與工作密度、一人公司、AI 資本所有權。
+- [22｜文明終極科技樹](docs/22-civilization-endgame-tech-tree.md)：從能源／材料／智慧到光速、熵、計算、意識與意義。
+- [23｜創造世界與模擬倫理](docs/23-simulations-and-creator-ethics.md)：四部科幻作品交叉比較、模擬居民與新智慧文明的倫理問題。
+- [24｜Odysstra 原創內容對接](docs/24-odysstra-civilization-integration.md)：低成本事件卡、古代 AI 與能源奇觀候選及**不擅自增加核心遊戲系統**的規則。
+- [本輪跨次討論的會議歸檔](docs/meetings/2026-11-16-ac-postscarcity-creation-archive.md)：議題演進、證據分級、修正史與尚待查證處。
+
+**閱讀提醒：**這些是研究基線及【內容庫／提案】，不是已定案或已實作的額外玩法。《銀河歸途》的百艘返鄉軍團、停更軍圖、戰勝國監控與母星 Happy End 均不受影響。完整閱讀順序與權威層級見 [docs/README.md](docs/README.md) 和 [AGENTS.md](AGENTS.md)。
