@@ -30,7 +30,7 @@
 
 「Ecumenopolis＝完全自給自足」不成立。理想城很可能高度依賴其他資源世界，沒有天然農田或礦區也不代表原料能免費出現。
 
-詳見 [19](../cosmo-01-planetary-civilization-and-arcology.md)。
+詳見 [COSMO-01](../cosmo-01-planetary-civilization-and-arcology.md)。
 
 ## 02｜把理想城重新分成三種空間層級
 
@@ -58,7 +58,7 @@
 
 再加上材料、散熱、物流與星系生態後，**「全部工業做成環世界」也未必對戰艦產能最有利**。
 
-詳見 [21](../cosmo-03-stellar-megastructures-and-industrial-economy.md)。
+詳見 [COSMO-03](../cosmo-03-stellar-megastructures-and-industrial-economy.md)。
 
 ## 04｜盤點行星的終極命運
 
@@ -178,7 +178,7 @@ NASA Jupiter：https://science.nasa.gov/jupiter/jupiter-facts/ ；Neptune：http
 
 定稿方向：高空上層華麗居住與城市環、雲中交通和空港、雲隙下暗色工業都市、遠景城市連續到天際，星環視角隨緯度符合幾何。
 
-詳細可直接使用的英文圖像提示、驗收清單見 [23](../cosmo-05-ocean-and-cloud-city-visual-briefs.md)。
+詳細可直接使用的英文圖像提示、驗收清單見 [COSMO-05](../cosmo-05-ocean-and-cloud-city-visual-briefs.md)。
 
 ## 14｜重點「修正紀錄」
 

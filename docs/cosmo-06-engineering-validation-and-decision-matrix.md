@@ -1,8 +1,11 @@
 # COSMO-06｜文明極限工程驗算、交叉決策矩陣與世界觀安全邊界
 
+> **整併閱讀註（2026-11-16）：**本篇的原作考據／已知物理用於區分證據與創作，不覆蓋[最新本作決策](11-decisions-and-open-questions.md#current-baseline)。兩個霸權使用規則級科技已是背景設定；具體機制、玩家准入與本文工程方案仍須分項確認。數值估算不是性能實測；外部資料的版本與適用條件按原文日期保留。
+
+
 > 更新日：**2026-11-16（Asia/Taipei）**。本文為 COSMO-01～05 與同日會議歸檔的**補充查核／工程演算／可選內容庫**，不另立與前五章競爭的新世界觀，更**不構成 Odysstra 正式玩法決策**。
 >
-> **閱讀順序**：先看 [總會議歸檔](meetings/2026-11-16-civilization-and-megastructures.md) 掌握推論演進，再按 [COSMO-01](cosmo-01-planetary-civilization-and-arcology.md) → [02](cosmo-02-pelagic-and-atmospheric-arcologies.md) → [03](cosmo-03-stellar-megastructures-and-industrial-economy.md) → [04](cosmo-04-titans-mobile-rings-and-peer-war.md) → [05](cosmo-05-ocean-and-cloud-city-visual-briefs.md) 了解細節，最後用本篇校驗前提。
+> **閱讀順序**：先看 [總會議歸檔](meetings/2026-11-16-civilization-and-megastructures.md) 掌握推論演進，再按 [COSMO-01](cosmo-01-planetary-civilization-and-arcology.md) → [COSMO-02](cosmo-02-pelagic-and-atmospheric-arcologies.md) → [COSMO-03](cosmo-03-stellar-megastructures-and-industrial-economy.md) → [COSMO-04](cosmo-04-titans-mobile-rings-and-peer-war.md) → [COSMO-05](cosmo-05-ocean-and-cloud-city-visual-briefs.md) 了解細節，最後用本篇校驗前提。
 >
 > **現況保護**：作品仍是約十萬同鄉與百艘左右完整軍團的戰後返鄉沙盒；旗艦沉沒即失敗，抵達共同母星即 Happy End。超文明、天文巨構、同級戰爭是**背景與稀有內容候選**，絕不自動變成玩家必造的科技樹、必打的最終 Boss、強迫犧牲的結局或首版原型功能。
 
@@ -20,7 +23,7 @@
 8. 若目標改為最多戰艦、只造泰坦、可移動環世界、HALO 類超武、對等巨構文明戰爭，最優解會如何變化？
 9. 兩幅已討論的海洋及氣態巨星概念畫，其相機、地質、流體光學、月球與星環擺位有何硬限制？
 
-**總裁決**：沒有無條件「最強文明建築」。最適方案隨 KPI 改變，而所有方案都必須通過**能量、物質、熱、時間、通訊、冗餘、政治與維護**七道約束。
+**總裁決**：沒有無條件「最強文明建築」。最適方案隨 KPI 改變，而所有方案都必須通過**能量、物質、熱、時間、通訊、冗餘、政治與維護**八道約束。
 
 ## 1｜證據分級：避免把好玩的推論寫成遊戲真相
 

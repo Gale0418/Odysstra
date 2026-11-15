@@ -1,4 +1,7 @@
-# 20｜奇蹟礦物、反重力、魔法水晶與超文明能源：跨作品技術考據
+# ENERGY-01｜奇蹟礦物、反重力、魔法水晶與超文明能源：跨作品技術考據
+
+> **整併閱讀註（2026-11-16）：**本篇的原作考據／已知物理用於區分證據與創作，不覆蓋[最新本作決策](11-decisions-and-open-questions.md#current-baseline)。兩個霸權使用規則級科技已是背景設定；具體機制、玩家准入與本文工程方案仍須分項確認。數值估算不是性能實測；外部資料的版本與適用條件按原文日期保留。
+
 
 > **狀態：【研究檔／靈感庫／提案】，非 Odysstra 已確認科技設定。**
 >
@@ -167,6 +170,6 @@
 
 ---
 
-**關聯章節：**[05 後勤](05-travel-economy-and-logistics.md)／[10 古代遺產](10-ancient-artifacts-and-easter-eggs.md)／[18 三類武器科技](18-weapons-defense-and-tech-doctrine.md)／[21 行星拆解、非法礦業與《群星》](21-planetary-mining-and-stellar-destruction.md)。
+**關聯章節：**[05 後勤](05-travel-economy-and-logistics.md)／[10 古代遺產](10-ancient-artifacts-and-easter-eggs.md)／[18 三類武器科技](18-weapons-defense-and-tech-doctrine.md)／[ENERGY-02行星拆解、非法礦業與《群星》](21-planetary-mining-and-stellar-destruction.md)。
 
 **本文工作性質：研究筆記與創作提案；不是玩法實作，不宣稱已通過科學模型驗證。**

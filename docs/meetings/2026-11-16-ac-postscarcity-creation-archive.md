@@ -4,7 +4,7 @@
 >
 > 已確立的 Odysstra 玩法仍以 [11｜決策紀錄](../11-decisions-and-open-questions.md) 為準；本檔新增的世界觀素材主要屬【提案】或【內容庫】，不得自動提升為【已確認】。
 >
-> 深入章節：[20 太空能源與 AC](../20-space-solar-and-ac-architecture.md)／[21 AI 社會與後工作](../21-ai-society-and-post-work-futures.md)／[22 科技樹終極問題](../22-civilization-endgame-tech-tree.md)／[23 創世與模擬倫理](../23-simulations-and-creator-ethics.md)／[24 Odysstra 對接](../24-odysstra-civilization-integration.md)。
+> 深入章節：[CIV-01太空能源與 AC](../20-space-solar-and-ac-architecture.md)／[CIV-02AI 社會與後工作](../21-ai-society-and-post-work-futures.md)／[CIV-03科技樹終極問題](../22-civilization-endgame-tech-tree.md)／[CIV-04創世與模擬倫理](../23-simulations-and-creator-ethics.md)／[CIV-05Odysstra 對接](../24-odysstra-civilization-integration.md)。
 
 ## 一、這場討論一路怎麼走到「創造宇宙」？
 
@@ -123,11 +123,11 @@
 
 | 序 | 結論 | 後續文件 |
 |---|---|---|
-| C01 | **大 AC 與私人 AC 會同時進步；個人能力增加不意味當代最強算力民主化** | [20](../20-space-solar-and-ac-architecture.md) |
-| C02 | **AI 的生產力不能直接換算成全民休假；分配、所有權、住房與基本服務是決勝點** | [21](../21-ai-society-and-post-work-futures.md) |
-| C03 | **把有限恆星能流變成「對文明幾乎用不完」的能源，關鍵是大規模收集、運輸、散熱、維修和製造** | [20](../20-space-solar-and-ac-architecture.md) |
-| C04 | **科技樹的終點不是一台更大的機器，而是物理、計算、生命身份、倫理和價值的根本邊界** | [22](../22-civilization-endgame-tech-tree.md) |
-| C05 | **造出自主文明之後，造物者不能再把新生命當自己的遊戲存檔** | [23](../23-simulations-and-creator-ethics.md) |
+| C01 | **大 AC 與私人 AC 會同時進步；個人能力增加不意味當代最強算力民主化** | [CIV-01](../20-space-solar-and-ac-architecture.md) |
+| C02 | **AI 的生產力不能直接換算成全民休假；分配、所有權、住房與基本服務是決勝點** | [CIV-02](../21-ai-society-and-post-work-futures.md) |
+| C03 | **把有限恆星能流變成「對文明幾乎用不完」的能源，關鍵是大規模收集、運輸、散熱、維修和製造** | [CIV-01](../20-space-solar-and-ac-architecture.md) |
+| C04 | **科技樹的終點不是一台更大的機器，而是物理、計算、生命身份、倫理和價值的根本邊界** | [CIV-03](../22-civilization-endgame-tech-tree.md) |
+| C05 | **造出自主文明之後，造物者不能再把新生命當自己的遊戲存檔** | [CIV-04](../23-simulations-and-creator-ethics.md) |
 
 **翻盤變數**：AI 的能力上限與可擁有性、實體自動化成本、能源與住房的物理供給、利潤分享的制度、以及計算中的居民是否具主觀經驗。這些變數才可能根本改寫世界線。
 
@@ -159,7 +159,7 @@
 
 **不可偷渡的改動**：額外母星最終 Boss、強制劇情反轉、讓戰勝國失去監視能力、自由即時傳送百艘艦隊、無限制自動造船、把每個星系改成超文明奇觀、另造一整套第二宇宙玩法。
 
-推薦：先從 [24](../24-odysstra-civilization-integration.md) 的兩張低成本事件卡試內容傳達，且必須等 [09](../09-production-risks-and-prototypes.md) 的返鄉核心原型得到驗證後再排程。
+推薦：先從 [CIV-05](../24-odysstra-civilization-integration.md) 的兩張低成本事件卡試內容傳達，且必須等 [09](../09-production-risks-and-prototypes.md) 的返鄉核心原型得到驗證後再排程。
 
 ## 五、來源可信度與文件後續使用
 

@@ -2,7 +2,7 @@
 
 ## 名稱【已確認】
 
-# ODYSSTRA
+### ODYSSTRA
 ## 《銀河歸途》
 
 **Odysstra = Odyssey × Astra**。Odyssey 指漫長曲折的返鄉冒險，Astra 是「群星」意象；把兩者熔成一個新英文單字，而不是「Odyssey: 某某副標」。

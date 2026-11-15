@@ -1,127 +1,101 @@
-# ODYSSTRA 設計資料庫
+# ODYSSTRA｜分層文件索引與狀態
 
-> 文件基準：2026-11-14～2026-11-15 多輪創作會議，另有後續補強、2026-09-15 舊武器設定回查，以及 2026-09-22「顆粒世界→美食星球」討論於 2026-11-16 的正式歸檔。語言：繁體中文。這是一份**設計基線，不是已完成遊戲功能**。
+> 整理日：2026-11-16。所有既有文件路徑保留；**唯一系列 ID** 取代重複的研究章號。數字、範例、完整清單與文件篇幅都不代表功能已完成。
 
-## 閱讀規則
+## 建議閱讀順序
 
-- **【已確認】** 使用者親自提出、確認或糾正，應優先遵循。
-- **【方向】** 使用者傾向接受，但具體實作、數值尚未拍板。
-- **【提案】** 多方討論產生，值得嘗試但可修改。
-- **【待決】** 缺少玩法驗證或設計規則，絕不擅自補成定案。
-- **【內容庫】** 可選事件、彩蛋、星系草案，不等於開發承諾。
-- **【已取代】** 曾提過、後來被使用者明確修正或不再建議的方向。
-- **【測試預設】** 為了比較原型而選的暫定配置／數值，不等於正式平衡值或採納決策。
-- **【歷史設定／本次指定參考】** 找回的先前設計；對接本作的規則、未取回細節與新提案須分開標記，不代表全部武器已列入首版。
+先讀 [最新決策](11-decisions-and-open-questions.md#current-baseline) → [世界觀](01-vision-and-worldbuilding.md) → [P-001](09-production-risks-and-prototypes.md)。設計武器時讀 18 → W01/W02/W03 → W07；需要理解霸權戰爭才讀 W04 和 COSMO。研究與歷史不是一次實作的工作清單。
 
-同一議題衝突時，採用**最新的使用者直接決策 > 決策紀錄 > 系統章節 > 腦洞內容庫 > 歷史發言**。不把 AI 口中的「定了」視為使用者拍板。
+## 狀態與證據
 
-## 全部文件
-
-| 文件 | 範圍 |
+| 標記 | 意義 |
 |---|---|
-| [01｜願景、世界觀、核心限制](01-vision-and-worldbuilding.md) | 背景、歷史原型、玩法承諾、不可做歪的方向 |
-| [02｜舊星圖與星系生成](02-galaxy-map-and-generation.md) | 戰前資料／戰後現況、航路、星系因果生成 |
-| [03｜政治勢力與戰後軍事格局](03-factions-and-war-aftermath.md) | 前宗主國、昔日友軍、軍閥、戰勝國與散逸軍備 |
-| [04｜百艘艦隊、開局編組與人口](04-fleet-roster-and-population.md) | 艦船角色、載員容量、泰坦誘惑、分遣隊 |
-| [05｜航行、後勤、資源與工業](05-travel-economy-and-logistics.md) | 原料／燃料、買賣、搶劫、回收、維修與造船 |
-| [06｜戰鬥與指揮](06-combat-and-command.md) | 自動戰鬥候選、旗艦死亡、撤退、公平性及測試 |
-| [07｜戰勝國接管、全圖監視與情報](07-victor-expansion-and-intelligence.md) | 時間推進、戰略注意力、遠古哨兵陣列 |
-| [08｜戰後事件與遭遇內容庫](08-events-and-encounters.md) | 64 組候選遭遇、行動解法及觸發原則 |
-| [09｜開發風險與原型路線](09-production-risks-and-prototypes.md) | 逆向避雷、P-001 切片、驗收與下一步 |
-| [10｜前宗主國遺產與彩蛋](10-ancient-artifacts-and-easter-eggs.md) | 高文明日用品、軍事遺產、重大奇觀、稀有度 |
-| [11｜決策與未決議題](11-decisions-and-open-questions.md) | 核心決策、提案、互相矛盾之處及待驗證清單 |
-| [12｜命名、敘事基調與商店文案](12-naming-and-tone.md) | Odysstra 名稱來源、宣傳語、原創及商標風險 |
-| [13｜UI 與技術架構草案](13-ui-and-technical-architecture.md) | 2D 畫面、模擬分層、存檔、效能、資產管線 |
-| [14｜玩家循環與可玩性假設](14-gameplay-loops-and-design-tensions.md) | 每段航程、玩家選擇、沙盒與返鄉的張力 |
-| [15｜30 個地標＋70 組普通星系候選](15-star-system-catalog.md) | 可挑選的地名、戰前功能、戰後狀態與低價值模板 |
-| [16｜玩法邊界補強提案](16-playability-contracts.md) | 暫停、資料真實性、敵軍調度、人口與存檔、兩個低成本亮點 |
-| [17｜原型驗收案例](17-prototype-test-matrix.md) | 32 個尚未執行的案例、三個遊玩實驗與結果紀錄模板 |
-| [18｜三類武器、防禦與偏科科技](18-weapons-defense-and-tech-doctrine.md) | 9 月 15 日歷史設定回查、科技名稱、未知交互與對接提案 |
-| [19｜美食星球、顆粒世界與可食冰沙地貌](19-edible-worlds-and-food-planet.md) | 顆粒地貌物理、Titan／Bennu 科學基線、真正可食的五道門檻、可可藻與巧克力冰沙湖提案 |
-| [20｜太陽能文明與 AC：從 2061 能源站到私人 Microvac](20-space-solar-and-ac-architecture.md) | 《最後的問題》的能源／超級電腦文明構想、艦載 Microvac 與科學邊界；非既定玩法 |
-| [戰鬥 W01｜三大武器完整名錄](warfare-weapons.md) | 原始 15 實彈＋15 射線＋16 導彈、分類與機理提案 |
-| [戰鬥 W02｜三防與點防部署](warfare-defenses.md) | 裝甲／護盾原名、反導／戰機／蟲群、地雷與一次性崗哨 |
-| [戰鬥 W03｜三大科研與文明戰法](warfare-doctrines.md) | 材料、能量、自律偏科；正面會戰與補給續戰 |
-| [戰鬥 W04｜規則科技與宇宙要塞炮](warfare-rule-modules.md) | 三千世界、時間備份、存在抹殺、萬象修改與現實錨 |
-| [戰鬥 W05｜異質艦隊與戰爭殘骸](warfare-exotic-fleets.md) | 史萊姆、ELS／灰蠱、能量生命、零石、Beast、星環／戰爭月 |
-| [戰鬥 W06｜戰鬥原型試驗](warfare-prototype-tests.md) | WD-06～21，全部 Not run；不取代既有 32 項驗收 |
-| [會議歸檔｜三攻三防討論補全](meetings/2026-11-16-six-systems-reconstruction.md) | 原始定義、使用者更正、AI 延伸提案與待決事項 |
-| [20｜神奇能源、魔法水晶與反重力](20-exotic-energy-and-crystal-technologies.md) | 飛行石、七耀石、FF、水晶文明、Avatar 磁浮、能源／控制材料的物理邊界 |
-| [21｜拆星礦業、EVE、佛利札與群星](21-planetary-mining-and-stellar-destruction.md) | 軌道與能源成本、碎片回收、非法清倉、EVE 月礦、Star-Eater／Nomads 工法 |
-| [會議歸檔｜11/16 特殊能源與拆星討論](meetings/2026-11-16-energy-and-planetary-mining.md) | 跨時段長對話精要、事實／推論／待決分界、Odysstra 低成本事件候選 |
-| [20｜太空太陽能與 AC 分層架構](20-space-solar-and-ac-architecture.md) | 2061 一英里能源站、Solar Swarm 條件估算、艦載 Microvac 與文明級 AC、私人算力 vs 當代前沿 |
-| [21｜AI 時代、後工作與八種社會世界線](21-ai-society-and-post-work-futures.md) | Cyberpunk、Star Trek、Solarpunk、WALL-E、一人公司、全民股東、科技封建與分配制度 |
-| [22｜文明科技樹與終極 Boss](22-civilization-endgame-tech-tree.md) | 12 階科技框架；能源、光速、量子重力、資訊、計算不可判定、意識、意義 |
-| [23｜模擬世界、創世與造物者倫理](23-simulations-and-creator-ethics.md) | 《最後的問題》《天降之物》《異次元駭客》《大雄的創世日記》交叉分析與未核實聲明 |
-| [24｜對接 Odysstra 的遠古文明內容庫](24-odysstra-civilization-integration.md) | 6 個低成本事件、巨構內容候選、既有玩法保護與開發延後規則 |
-| [會議歸檔｜11 月設計討論](meetings/2026-11-15-session-archive.md) | 19 輪脈絡、修正史、已否定設定索引 |
-| [會議歸檔｜AC、後稀缺、創世倫理](meetings/2026-11-16-ac-postscarcity-creation-archive.md) | 跨輪對話的 14 個階段、5 項共識、糾錯、科學與文學事實分層 |
-| [COSMO-01｜行星終極開發與理想城](cosmo-01-planetary-civilization-and-arcology.md) | Ecumenopolis 3 階段、科技與基建黑科技、終極行星類型、產業分工 |
-| [COSMO-02｜海洋／氣態三維理想城](cosmo-02-pelagic-and-atmospheric-arcologies.md) | 歐羅巴與水世界、深海體積／壓力、巨行星浮空城、氫能源與物理盲點 |
-| [COSMO-03｜環世界以上的巨構與軍工](cosmo-03-stellar-megastructures-and-industrial-economy.md) | Ringworld、Dyson、Alderson、Matrioshka、Birch 與軍艦年產量瓶頸 |
-| [COSMO-04｜泰坦／移動環／同級戰爭](cosmo-04-titans-mobile-rings-and-peer-war.md) | 高價值泰坦與無人輔助、戰略超武類比、分散式文明韌性 |
-| [COSMO-05｜海洋與氣態都市視覺規範](cosmo-05-ocean-and-cloud-city-visual-briefs.md) | 兩張城市概念畫的相機、天體位置、無陸地限制、分層與圖像提示 |
-| [COSMO-06｜工程驗算與決策矩陣](cosmo-06-engineering-validation-and-decision-matrix.md) | 原理／推演證據分級、面積與人口估算、FMEA、艦船產能、同級文明戰爭、概念畫驗收 |
-| [會議歸檔｜理想城、巨構與星際戰爭](meetings/2026-11-16-civilization-and-megastructures.md) | 本次長討論全流程、工程結論、反方、版本與科幻 IP 修正 |
-| [開發與文件維護指引](../AGENTS.md) | 後續協作者的閱讀順序、需求來源、範圍及驗證方式 |
+| 已確認 | 使用者親自決定的背景、意圖或規則；仍須區分背景存在與玩家可用 |
+| 歷史設定／指定參考 | 過去創作保留，若後來更正以最新決策為準 |
+| 方向／提案／內容庫 | 候選解法、配方、事件與世界素材，不是開發承諾 |
+| 待決／測試預設 | 未知保留未知；原型暫定數字不當正式數值 |
+| 研究／條件演算 | 原作資料、現行物理與明示假設；不代替本作虛構規則 |
+| Not run | 遊戲驗收案例尚未執行；文件 CI 成功不改變它 |
 
-## 核心一頁摘要
+**最新使用者決策 > 決策紀錄 > 系統章節 > 提案／研究／歷史。** 軍團返鄉核心、全圖監視、三門共用攻防與母星 Happy End 不因跨作品研究變更。化灰抹殺和歷史抹除分開。
 
-**【已確認】**《銀河歸途／Odysstra》是一款以戰敗後返鄉為目標的 2D 艦隊沙盒。宇宙級戰爭剛結束；玩家率領同一顆母星出身的約十萬名厭戰老兵和百艘左右艦船，持有前遠古宗主國發的詳細舊軍圖，橫跨半個銀河返回母星。軍團在地方很強，但與戰勝國相比只是戰略性的小勢力。戰後世界會自己動，玩家能打仗、造船、挖礦、跑商、搶劫、回頭、分遣、長期停留；抵達母星即可 Happy End。
+## 核心企劃 01–18
 
-**【方向】** 30 個有名有特色事件的固定地標；普通星系由低價值模板組合生成，會議提到「70 種」隨機組合，但**每局究竟生成多少顆星系仍待決定**。戰勝國按遊戲時間與戰略優先度接管星域，有全圖艦隊監視能力；高階旗艦或泰坦讓玩家受更多關注。
+| ID | 文件 | 狀態 |
+|---|---|---|
+| C01 | [01｜願景、世界觀與玩家幻想](01-vision-and-worldbuilding.md) | 已確認基線與提案分開標記 |
+| C02 | [02｜停更軍圖、星系生成與自由航路](02-galaxy-map-and-generation.md) | 已確認基線與提案分開標記 |
+| C03 | [03｜戰後政治、友軍領土與軍事遺產](03-factions-and-war-aftermath.md) | 已確認基線與提案分開標記 |
+| C04 | [04｜遠征軍團、開局編制、人口與旗艦](04-fleet-roster-and-population.md) | 已確認基線與提案分開標記 |
+| C05 | [05｜自由航行、原料、燃料、貿易、搶劫與造船](05-travel-economy-and-logistics.md) | 已確認基線與提案分開標記 |
+| C06 | [06｜戰鬥、旗艦死亡與百艘艦隊的指揮](06-combat-and-command.md) | 已確認基線與提案分開標記 |
+| C07 | [07｜戰勝國接管區、全圖監控與戰略注意力](07-victor-expansion-and-intelligence.md) | 已確認基線與提案分開標記 |
+| C08 | [08｜戰後遭遇與事件候選庫（64 組）](08-events-and-encounters.md) | 已確認基線與提案分開標記 |
+| C09 | [09｜逆向避雷、最小可玩原型與驗收](09-production-risks-and-prototypes.md) | 已確認基線與提案分開標記 |
+| C10 | [10｜前宗主國的荒謬遺產：宇宙級失物招領處](10-ancient-artifacts-and-easter-eggs.md) | 已確認基線與提案分開標記 |
+| C11 | [11｜決策紀錄、已取代想法與待決事項](11-decisions-and-open-questions.md) | 已確認基線與提案分開標記 |
+| C12 | [12｜正式工作名稱、命名沿革與作品語氣](12-naming-and-tone.md) | 已確認基線與提案分開標記 |
+| C13 | [13｜2D UI、資料驅動與技術架構草案](13-ui-and-technical-architecture.md) | 已確認基線與提案分開標記 |
+| C14 | [14｜玩家循環、自由度與真正的策略張力](14-gameplay-loops-and-design-tensions.md) | 已確認基線與提案分開標記 |
+| C15 | [15｜30 個重要地標與 70 組普通星系候選](15-star-system-catalog.md) | 已確認基線與提案分開標記 |
+| C16 | [16｜玩法邊界補強：把「很有趣」變成不會誤傷玩家的規則](16-playability-contracts.md) | 已確認基線與提案分開標記 |
+| C17 | [17｜P-001 驗收案例、測試紀錄與範圍閘門](17-prototype-test-matrix.md) | 已確認基線與提案分開標記 |
+| C18 | [18｜找回的三類宇宙戰武器、防禦與偏科科技](18-weapons-defense-and-tech-doctrine.md) | 已確認基線與提案分開標記 |
 
-**【待決】** 戰鬥操作、艦隊 AI、單場部署量、行星與航線物理規則、資源數值、世界模擬密度、引擎／平台、正式內容成本、存讀檔與換旗艦的例外條件。
+<a id="weapons"></a>
 
-## 維護規範
+## 武器與艦隊專題 W
 
-1. 新想法先標示【提案】，不要直接改掉【已確認】。
-2. 數值、機率、時間、星系名如無玩家確認，一律標「示意／待平衡」。
-3. 原型證明可玩之後，再把提案轉為規格與測試；不要反過來先實作完整設定。
-4. 前宗主國科技、經典科幻彩蛋均需轉化成原創表現；不照抄第三方作品的專有名稱、造型與文本。
-5. 進行新一輪討論時，先看 [決策與未決議題](11-decisions-and-open-questions.md)，避免把已被糾正的錯誤重新放進企劃。
-6. 測試案例存在不代表已執行；Pass 必須有實際證據。文件補充授權不等於所有提案都已被採納。
+| ID | 文件 | 狀態 |
+|---|---|---|
+| W01 | [W01｜三大艦載武器完整名錄：實彈、射線、導彈](warfare-weapons.md) | 歷史設定／對接提案；遊戲測試未執行 |
+| W02 | [W02｜三種防禦完整名錄與交戰判定契約](warfare-defenses.md) | 歷史設定／對接提案；遊戲測試未執行 |
+| W03 | [W03｜三大基礎科學、三種文明戰法與戰爭續航](warfare-doctrines.md) | 歷史設定／對接提案；遊戲測試未執行 |
+| W04 | [W04｜規則模組、神級能力、魔法艦隊術式與要塞炮](warfare-rule-modules.md) | 歷史設定／對接提案；遊戲測試未執行 |
+| W05 | [W05｜異質艦隊、生物戰爭、太空殘骸海與戰爭衛星](warfare-exotic-fleets.md) | 歷史設定／對接提案；遊戲測試未執行 |
+| W06 | [W06｜六大攻防系統的最小原型、平衡實驗與驗收](warfare-prototype-tests.md) | 歷史設定／對接提案；遊戲測試未執行 |
+| W07 | [W07｜模組化武器藍圖與艦隊配裝：Beyond Kronos 的受控移植](warfare-modular-blueprints.md) | 歷史設定／對接提案；遊戲測試未執行 |
 
-## 追加補強的使用方式
+## 世界觀與研究 WORLD／ENERGY／CIV／COSMO
 
-先看第 16 章哪些邊界與目前原型有關，再挑第 17 章對應案例；未採納提案標 Deferred，尚未執行標 Not run。不要把兩章直接翻成同時開工的 32 個系統。軍團航行簿及舊圖對照是可延後的小型亮點，不阻擋核心切片。
+| ID | 文件 | 狀態 |
+|---|---|---|
+| CIV-01 | [CIV-01｜太陽能文明與 AC：從 2061 能源站到「私人 Microvac」](20-space-solar-and-ac-architecture.md) | 研究／提案；個別已確認背景另標 |
+| CIV-02 | [CIV-02｜AI 時代的八種文明岔路：後工作社會、賽博龐克與一人公司](21-ai-society-and-post-work-futures.md) | 研究／提案；個別已確認背景另標 |
+| CIV-03 | [CIV-03｜文明滿級科技樹：從能源、智慧到宇宙終極問題](22-civilization-endgame-tech-tree.md) | 研究／提案；個別已確認背景另標 |
+| CIV-04 | [CIV-04｜造物、夢境與模擬宇宙：四部科幻作品的文明終局對照](23-simulations-and-creator-ethics.md) | 研究／提案；個別已確認背景另標 |
+| CIV-05 | [CIV-05｜把「文明滿級」放進《銀河歸途》：遠古 AI、超級能源與造物遺跡內容庫](24-odysstra-civilization-integration.md) | 研究／提案；個別已確認背景另標 |
+| COSMO-01 | [COSMO-01｜行星終極開發與理想城文明科技樹](cosmo-01-planetary-civilization-and-arcology.md) | 研究／提案／視覺要求 |
+| COSMO-02 | [COSMO-02｜海洋理想城、氣態／冰巨星天空理想城：三維殖民工程](cosmo-02-pelagic-and-atmospheric-arcologies.md) | 研究／提案／視覺要求 |
+| COSMO-03 | [COSMO-03｜環世界以上的巨構、恆星級工業與超主力艦產能](cosmo-03-stellar-megastructures-and-industrial-economy.md) | 研究／提案／視覺要求 |
+| COSMO-04 | [COSMO-04｜泰坦中心艦隊、移動戰鬥環與同級超文明戰爭](cosmo-04-titans-mobile-rings-and-peer-war.md) | 研究／提案／視覺要求 |
+| COSMO-05 | [COSMO-05｜海洋理想城與氣態天空理想城：概念美術、構圖與天體關係規範](cosmo-05-ocean-and-cloud-city-visual-briefs.md) | 研究／提案／視覺要求 |
+| COSMO-06 | [COSMO-06｜文明極限工程驗算、交叉決策矩陣與世界觀安全邊界](cosmo-06-engineering-validation-and-decision-matrix.md) | 研究／提案／視覺要求 |
+| ENERGY-01 | [ENERGY-01｜奇蹟礦物、反重力、魔法水晶與超文明能源：跨作品技術考據](20-exotic-energy-and-crystal-technologies.md) | 研究／提案；個別已確認背景另標 |
+| ENERGY-02 | [ENERGY-02｜拆星致富？行星礦業、EVE 月礦、佛利札房地產與《群星》噬星經濟](21-planetary-mining-and-stellar-destruction.md) | 研究／提案；個別已確認背景另標 |
+| WORLD-01 | [WORLD-01｜美食星球、顆粒世界與可食冰沙地貌](19-edible-worlds-and-food-planet.md) | 研究／提案；個別已確認背景另標 |
 
-第 18 章則保存使用者指定找回的舊武器參考：實彈／射線／導彈，裝甲／護盾／點防禦，以及材料學／能量學／自律系統的偏科方向。它不替未找到的完整傷害公式作決定，也不要求所有歷史武器名稱在首版實作。
+## 歷史會議摘要
 
-### 2026-11-16 原始討論再確認
+| ID | 文件 | 狀態 |
+|---|---|---|
+| HIST-2026-11-15-session-archive | [會議歸檔｜Odysstra《銀河歸途》2026-11-14～15](meetings/2026-11-15-session-archive.md) | 摘要歸檔，非逐字稿 |
+| HIST-2026-11-16-ac-postscarcity-creation-archive | [會議歸檔｜AC、後稀缺文明、創世模擬與 Odysstra 靈感整理（2026-11-16）](meetings/2026-11-16-ac-postscarcity-creation-archive.md) | 摘要歸檔，非逐字稿 |
+| HIST-2026-11-16-civilization-and-megastructures | [會議歸檔｜理想城、三維海洋與氣態都市、環世界、泰坦戰爭與巨構美術](meetings/2026-11-16-civilization-and-megastructures.md) | 摘要歸檔，非逐字稿 |
+| HIST-2026-11-16-energy-and-planetary-mining | [會議歸檔｜2026-11-16 科幻能源、反重力與天體拆解經濟學](meetings/2026-11-16-energy-and-planetary-mining.md) | 摘要歸檔，非逐字稿 |
+| HIST-2026-11-16-six-systems-reconstruction | [會議歸檔｜三攻三防、偏科文明、異質艦隊與規則科技](meetings/2026-11-16-six-systems-reconstruction.md) | 摘要歸檔，非逐字稿 |
 
-使用者指出三組攻防技術是**三門共用的基礎科學，而非六條獨立科技樹**。詳見 [第 18 章](18-weapons-defense-and-tech-doctrine.md) 與 [決策紀錄 H](11-decisions-and-open-questions.md#h-2026-11-16原始武器討論來源已由使用者指認)。具體科技節點是否每次同步提升攻防仍待決；原始私人對話網址未刊登在公開倉庫。
+## 維護、索引與審查
 
+| ID | 文件 | 狀態 |
+|---|---|---|
+| AUDIT-20261116 | [AUDIT-20261116｜全文件審查、整理與武器移植記錄](reviews/2026-11-16-document-audit.md) | 文件審查記錄，非遊戲驗收 |
+| GUIDE | [Odysstra｜開發與文件維護指引](../AGENTS.md) | 維護指引 |
+| HOME | [ODYSSTRA｜銀河歸途](../README.md) | 入口 |
+| INDEX | [ODYSSTRA｜分層文件索引與狀態](README.md) | 索引 |
 
-### 2026-11-16 美食星球歸檔
+## 同步與查核
 
-使用者確認 Odysstra 世界觀可以存在**真正可食的「美食星球」**；重點不是「長得像巧克力」，而是經毒理、病原與生化相容檢查後，地貌本身確實可以食用。完整推導見 [第 19 章](19-edible-worlds-and-food-planet.md)。
+機器可讀清單為 [document-map.json](document-map.json)，每個 Markdown 路徑僅一筆。新增文件時同時維護此索引與清單。原本的第 19 章美食世界現為 WORLD-01；兩組 20／21 章分屬 ENERGY 與 CIV；W/COSMO 引用不再冒用普通章號。歷史檔名保留以保護既有連結。
 
-目前推薦的科幻合理化方案是「人類相容的寒冷生命世界」：水生生物大量製造糖、脂質、色素與芳香物，季節性部分結冰後形成天然冰晶＋濃縮甜液的冰沙地貌。**可可藻與巧克力冰沙湖仍是提案；草莓雪原、香草冰川、蜂蜜／花蜜海仍是內容庫；星球名稱、位置、是否占用 30 個固定地標尚未決定。** 此設定不改變既有「食物列印機＋抽象原料」後勤基線，也不自動增加烹飪或營養模擬系統。
-
-
-## 戰鬥專題 W｜2026-11-16 六系補全
-
-以 [W01 原始武器表](warfare-weapons.md)、[W02 三種防禦](warfare-defenses.md)、[W03 科研偏科／三文明戰術](warfare-doctrines.md) 為主要連續閱讀順序；更高階的 [W04 規則／要塞](warfare-rule-modules.md) 與 [W05 異質艦隊／殘骸](warfare-exotic-fleets.md) 都屬可能的稀有世界觀素材。要準備戰鬥原型則看 [W06 測試](warfare-prototype-tests.md)。
-
-使用者更正的重點：**炮射核融合彈仍是實彈；光子軌道炮發射的是光子裝甲衍生實體彈；點防不只反導，也能打戰機、蟲群與敵艦；布雷、一次性崗哨能把防線前推；研究是材料、能量、自律三科學，可單邊偏科。**
-
-第 18 章仍保留「先前只檢索到部分老設定」的歷史文字，W01～W06 才是使用者直接提供完整清單後的補完。原型計畫與平衡**待決**，原 [17 章](17-prototype-test-matrix.md) 的 32 項及 [18 章](18-weapons-defense-and-tech-doctrine.md) WD-01～05 不被取代；W06 的 WD-06～21 全部 Not run。
-
-
-### 2026-11-16 特殊能源與天體採礦研究歸檔
-
-本次另新增 [20 章](20-exotic-energy-and-crystal-technologies.md)、[21 章](21-planetary-mining-and-stellar-destruction.md) 與 [會議紀錄](meetings/2026-11-16-energy-and-planetary-mining.md)，綜整《空之軌跡》導力飛行、《天空之城》飛行石、FF／亞特蘭提斯水晶、可亞可亞ガルタイト、EVE 月礦、佛利札星球貿易和《群星》Star-Eater／2026《Nomads》天體再處理。
-
-**性質：研究、原作考據及可選事件素材。** 尤其不能把「有牽引光束」「已多次偷偷炸殖民星」「能靠反重力免除所有推進與碎片回收成本」當已證實設定；也沒有把行星破壞、額外貨幣或全新科技樹加入 Odysstra 的正式規格。
-
-## COSMO｜行星文明、恆星巨構與超級戰爭（2026-11-16）
-
-[COSMO-01](cosmo-01-planetary-civilization-and-arcology.md)～[COSMO-06](cosmo-06-engineering-validation-and-decision-matrix.md)與[宏觀會議歸檔](meetings/2026-11-16-civilization-and-megastructures.md)只作**物理／科幻推演、靈感庫與視覺委託**，不直接進入首版規格。海洋與氣態城市的「沒有陸地」、氣態天空不能再畫第二顆氣態星球等是使用者對本次圖像的明確要求，不是要求每個遊戲星系都具備都市。對話中的《Stellaris》4.4.6 舊資料需按 **2026-11-11 最新已發布的 4.5.4** 或後續版本重新核查。
-
-
-### 2026-11-16｜AC、太空能源、後工作與創世倫理研究歸檔
-
-使用者要求將《最後的問題》引發的長篇討論詳盡保存在 Odysstra。新增第 20～24 章及一份 [會議摘要](meetings/2026-11-16-ac-postscarcity-creation-archive.md)：涵蓋 2061 年太空太陽能、私人／行星／宇宙級 AI、科技與福利分配、不同 -punk 類型、文明終極科技樹、模擬世界和非預期智慧文明，以及如何轉化為**不破壞返鄉玩法**的原創內容。
-
-**本次「已確認」只有歸檔動作與使用者討論中的明確觀點，不代表任何新 AI、戴森群、創世套組或宇宙末日系統已被採納為 Odysstra 正式玩法。** 第 24 章的事件卡全部是【內容庫／提案】，而非首版開發清單；遊戲仍處於文件階段。
+[AGENTS.md](../AGENTS.md) 記錄協作規則；[本次審查](reviews/2026-11-16-document-audit.md) 記錄範圍、修正與限制。外部來源保留原文日期；未對每一個外部網站逐頁重做查證，不把原作研究誤稱成已驗證本作數值。

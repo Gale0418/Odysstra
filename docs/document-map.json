@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-16",
+  "documents": [
+    {
+      "id": "GUIDE",
+      "path": "AGENTS.md",
+      "title": "Odysstra｜開發與文件維護指引",
+      "category": "governance",
+      "status": "維護指引"
+    },
+    {
+      "id": "HOME",
+      "path": "README.md",
+      "title": "ODYSSTRA｜銀河歸途",
+      "category": "governance",
+      "status": "入口"
+    },
+    {
+      "id": "C01",
+      "path": "docs/01-vision-and-worldbuilding.md",
+      "title": "01｜願景、世界觀與玩家幻想",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C02",
+      "path": "docs/02-galaxy-map-and-generation.md",
+      "title": "02｜停更軍圖、星系生成與自由航路",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C03",
+      "path": "docs/03-factions-and-war-aftermath.md",
+      "title": "03｜戰後政治、友軍領土與軍事遺產",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C04",
+      "path": "docs/04-fleet-roster-and-population.md",
+      "title": "04｜遠征軍團、開局編制、人口與旗艦",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C05",
+      "path": "docs/05-travel-economy-and-logistics.md",
+      "title": "05｜自由航行、原料、燃料、貿易、搶劫與造船",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C06",
+      "path": "docs/06-combat-and-command.md",
+      "title": "06｜戰鬥、旗艦死亡與百艘艦隊的指揮",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C07",
+      "path": "docs/07-victor-expansion-and-intelligence.md",
+      "title": "07｜戰勝國接管區、全圖監控與戰略注意力",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C08",
+      "path": "docs/08-events-and-encounters.md",
+      "title": "08｜戰後遭遇與事件候選庫（64 組）",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C09",
+      "path": "docs/09-production-risks-and-prototypes.md",
+      "title": "09｜逆向避雷、最小可玩原型與驗收",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C10",
+      "path": "docs/10-ancient-artifacts-and-easter-eggs.md",
+      "title": "10｜前宗主國的荒謬遺產：宇宙級失物招領處",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C11",
+      "path": "docs/11-decisions-and-open-questions.md",
+      "title": "11｜決策紀錄、已取代想法與待決事項",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C12",
+      "path": "docs/12-naming-and-tone.md",
+      "title": "12｜正式工作名稱、命名沿革與作品語氣",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C13",
+      "path": "docs/13-ui-and-technical-architecture.md",
+      "title": "13｜2D UI、資料驅動與技術架構草案",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C14",
+      "path": "docs/14-gameplay-loops-and-design-tensions.md",
+      "title": "14｜玩家循環、自由度與真正的策略張力",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C15",
+      "path": "docs/15-star-system-catalog.md",
+      "title": "15｜30 個重要地標與 70 組普通星系候選",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C16",
+      "path": "docs/16-playability-contracts.md",
+      "title": "16｜玩法邊界補強：把「很有趣」變成不會誤傷玩家的規則",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C17",
+      "path": "docs/17-prototype-test-matrix.md",
+      "title": "17｜P-001 驗收案例、測試紀錄與範圍閘門",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "C18",
+      "path": "docs/18-weapons-defense-and-tech-doctrine.md",
+      "title": "18｜找回的三類宇宙戰武器、防禦與偏科科技",
+      "category": "core",
+      "status": "已確認基線與提案分開標記"
+    },
+    {
+      "id": "WORLD-01",
+      "path": "docs/19-edible-worlds-and-food-planet.md",
+      "title": "WORLD-01｜美食星球、顆粒世界與可食冰沙地貌",
+      "category": "research",
+      "status": "研究／提案；個別已確認背景另標"
+    },
+    {
+      "id": "ENERGY-01",
+      "path": "docs/20-exotic-energy-and-crystal-technologies.md",
+      "title": "ENERGY-01｜奇蹟礦物、反重力、魔法水晶與超文明能源：跨作品技術考據",
+      "category": "research",
+      "status": "研究／提案；個別已確認背景另標"
+    },
+    {
+      "id": "CIV-01",
+      "path": "docs/20-space-solar-and-ac-architecture.md",
+      "title": "CIV-01｜太陽能文明與 AC：從 2061 能源站到「私人 Microvac」",
+      "category": "research",
+      "status": "研究／提案；個別已確認背景另標"
+    },
+    {
+      "id": "CIV-02",
+      "path": "docs/21-ai-society-and-post-work-futures.md",
+      "title": "CIV-02｜AI 時代的八種文明岔路：後工作社會、賽博龐克與一人公司",
+      "category": "research",
+      "status": "研究／提案；個別已確認背景另標"
+    },
+    {
+      "id": "ENERGY-02",
+      "path": "docs/21-planetary-mining-and-stellar-destruction.md",
+      "title": "ENERGY-02｜拆星致富？行星礦業、EVE 月礦、佛利札房地產與《群星》噬星經濟",
+      "category": "research",
+      "status": "研究／提案；個別已確認背景另標"
+    },
+    {
+      "id": "CIV-03",
+      "path": "docs/22-civilization-endgame-tech-tree.md",
+      "title": "CIV-03｜文明滿級科技樹：從能源、智慧到宇宙終極問題",
+      "category": "research",
+      "status": "研究／提案；個別已確認背景另標"
+    },
+    {
+      "id": "CIV-04",
+      "path": "docs/23-simulations-and-creator-ethics.md",
+      "title": "CIV-04｜造物、夢境與模擬宇宙：四部科幻作品的文明終局對照",
+      "category": "research",
+      "status": "研究／提案；個別已確認背景另標"
+    },
+    {
+      "id": "CIV-05",
+      "path": "docs/24-odysstra-civilization-integration.md",
+      "title": "CIV-05｜把「文明滿級」放進《銀河歸途》：遠古 AI、超級能源與造物遺跡內容庫",
+      "category": "research",
+      "status": "研究／提案；個別已確認背景另標"
+    },
+    {
+      "id": "INDEX",
+      "path": "docs/README.md",
+      "title": "ODYSSTRA｜分層文件索引與狀態",
+      "category": "governance",
+      "status": "索引"
+    },
+    {
+      "id": "COSMO-01",
+      "path": "docs/cosmo-01-planetary-civilization-and-arcology.md",
+      "title": "COSMO-01｜行星終極開發與理想城文明科技樹",
+      "category": "research",
+      "status": "研究／提案／視覺要求"
+    },
+    {
+      "id": "COSMO-02",
+      "path": "docs/cosmo-02-pelagic-and-atmospheric-arcologies.md",
+      "title": "COSMO-02｜海洋理想城、氣態／冰巨星天空理想城：三維殖民工程",
+      "category": "research",
+      "status": "研究／提案／視覺要求"
+    },
+    {
+      "id": "COSMO-03",
+      "path": "docs/cosmo-03-stellar-megastructures-and-industrial-economy.md",
+      "title": "COSMO-03｜環世界以上的巨構、恆星級工業與超主力艦產能",
+      "category": "research",
+      "status": "研究／提案／視覺要求"
+    },
+    {
+      "id": "COSMO-04",
+      "path": "docs/cosmo-04-titans-mobile-rings-and-peer-war.md",
+      "title": "COSMO-04｜泰坦中心艦隊、移動戰鬥環與同級超文明戰爭",
+      "category": "research",
+      "status": "研究／提案／視覺要求"
+    },
+    {
+      "id": "COSMO-05",
+      "path": "docs/cosmo-05-ocean-and-cloud-city-visual-briefs.md",
+      "title": "COSMO-05｜海洋理想城與氣態天空理想城：概念美術、構圖與天體關係規範",
+      "category": "research",
+      "status": "研究／提案／視覺要求"
+    },
+    {
+      "id": "COSMO-06",
+      "path": "docs/cosmo-06-engineering-validation-and-decision-matrix.md",
+      "title": "COSMO-06｜文明極限工程驗算、交叉決策矩陣與世界觀安全邊界",
+      "category": "research",
+      "status": "研究／提案／視覺要求"
+    },
+    {
+      "id": "HIST-2026-11-15-session-archive",
+      "path": "docs/meetings/2026-11-15-session-archive.md",
+      "title": "會議歸檔｜Odysstra《銀河歸途》2026-11-14～15",
+      "category": "history",
+      "status": "摘要歸檔，非逐字稿"
+    },
+    {
+      "id": "HIST-2026-11-16-ac-postscarcity-creation-archive",
+      "path": "docs/meetings/2026-11-16-ac-postscarcity-creation-archive.md",
+      "title": "會議歸檔｜AC、後稀缺文明、創世模擬與 Odysstra 靈感整理（2026-11-16）",
+      "category": "history",
+      "status": "摘要歸檔，非逐字稿"
+    },
+    {
+      "id": "HIST-2026-11-16-civilization-and-megastructures",
+      "path": "docs/meetings/2026-11-16-civilization-and-megastructures.md",
+      "title": "會議歸檔｜理想城、三維海洋與氣態都市、環世界、泰坦戰爭與巨構美術",
+      "category": "history",
+      "status": "摘要歸檔，非逐字稿"
+    },
+    {
+      "id": "HIST-2026-11-16-energy-and-planetary-mining",
+      "path": "docs/meetings/2026-11-16-energy-and-planetary-mining.md",
+      "title": "會議歸檔｜2026-11-16 科幻能源、反重力與天體拆解經濟學",
+      "category": "history",
+      "status": "摘要歸檔，非逐字稿"
+    },
+    {
+      "id": "HIST-2026-11-16-six-systems-reconstruction",
+      "path": "docs/meetings/2026-11-16-six-systems-reconstruction.md",
+      "title": "會議歸檔｜三攻三防、偏科文明、異質艦隊與規則科技",
+      "category": "history",
+      "status": "摘要歸檔，非逐字稿"
+    },
+    {
+      "id": "W02",
+      "path": "docs/warfare-defenses.md",
+      "title": "W02｜三種防禦完整名錄與交戰判定契約",
+      "category": "warfare",
+      "status": "歷史設定／對接提案；遊戲測試未執行"
+    },
+    {
+      "id": "W03",
+      "path": "docs/warfare-doctrines.md",
+      "title": "W03｜三大基礎科學、三種文明戰法與戰爭續航",
+      "category": "warfare",
+      "status": "歷史設定／對接提案；遊戲測試未執行"
+    },
+    {
+      "id": "W05",
+      "path": "docs/warfare-exotic-fleets.md",
+      "title": "W05｜異質艦隊、生物戰爭、太空殘骸海與戰爭衛星",
+      "category": "warfare",
+      "status": "歷史設定／對接提案；遊戲測試未執行"
+    },
+    {
+      "id": "W07",
+      "path": "docs/warfare-modular-blueprints.md",
+      "title": "W07｜模組化武器藍圖與艦隊配裝：Beyond Kronos 的受控移植",
+      "category": "warfare",
+      "status": "歷史設定／對接提案；遊戲測試未執行"
+    },
+    {
+      "id": "W06",
+      "path": "docs/warfare-prototype-tests.md",
+      "title": "W06｜六大攻防系統的最小原型、平衡實驗與驗收",
+      "category": "warfare",
+      "status": "歷史設定／對接提案；遊戲測試未執行"
+    },
+    {
+      "id": "W04",
+      "path": "docs/warfare-rule-modules.md",
+      "title": "W04｜規則模組、神級能力、魔法艦隊術式與要塞炮",
+      "category": "warfare",
+      "status": "歷史設定／對接提案；遊戲測試未執行"
+    },
+    {
+      "id": "W01",
+      "path": "docs/warfare-weapons.md",
+      "title": "W01｜三大艦載武器完整名錄：實彈、射線、導彈",
+      "category": "warfare",
+      "status": "歷史設定／對接提案；遊戲測試未執行"
+    },
+    {
+      "id": "AUDIT-20261116",
+      "path": "docs/reviews/2026-11-16-document-audit.md",
+      "title": "AUDIT-20261116｜全文件審查、整理與武器移植記錄",
+      "category": "governance",
+      "status": "文件審查記錄，非遊戲驗收"
+    }
+  ]
+}

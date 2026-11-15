@@ -1,6 +1,9 @@
-# 24｜把「文明滿級」放進《銀河歸途》：遠古 AI、超級能源與造物遺跡內容庫
+# CIV-05｜把「文明滿級」放進《銀河歸途》：遠古 AI、超級能源與造物遺跡內容庫
 
-> **歸檔日期：2026-11-16**｜**【提案／內容庫，絕非已確認首版系統】**。本章將 [20 太空太陽能與 AC](20-space-solar-and-ac-architecture.md)、[21 AI 社會岔路](21-ai-society-and-post-work-futures.md)、[22 文明終局科技樹](22-civilization-endgame-tech-tree.md)、[23 模擬與造物倫理](23-simulations-and-creator-ethics.md) 收斂為 Odysstra 可用的**原創世界觀素材**，不得凌駕 [11 決策紀錄](11-decisions-and-open-questions.md)。
+> **整併閱讀註（2026-11-16）：**本篇的原作考據／已知物理用於區分證據與創作，不覆蓋[最新本作決策](11-decisions-and-open-questions.md#current-baseline)。兩個霸權使用規則級科技已是背景設定；具體機制、玩家准入與本文工程方案仍須分項確認。數值估算不是性能實測；外部資料的版本與適用條件按原文日期保留。
+
+
+> **歸檔日期：2026-11-16**｜**【提案／內容庫，絕非已確認首版系統】**。本章將 [CIV-01太空太陽能與 AC](20-space-solar-and-ac-architecture.md)、[CIV-02AI 社會岔路](21-ai-society-and-post-work-futures.md)、[CIV-03文明終局科技樹](22-civilization-endgame-tech-tree.md)、[CIV-04模擬與造物倫理](23-simulations-and-creator-ethics.md) 收斂為 Odysstra 可用的**原創世界觀素材**，不得凌駕 [11 決策紀錄](11-decisions-and-open-questions.md)。
 >
 > 這份文件是「如何少量取用而不毀主線」的提案，**不是**新增必做內容、已實作機制或 30 個具名地標的配置表。
 

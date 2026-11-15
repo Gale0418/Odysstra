@@ -4,7 +4,7 @@
 >
 > 這是將**較早從《空之軌跡》飛艇開始、延伸到神奇礦石、哆啦A夢、EVE、佛利札與《群星》**的跨時段對話，在 Odysstra 倉庫中正式整理的歸檔；**不是**聲稱全部內容都在 11 月 16 日發生，亦非私人聊天逐字備份。
 >
-> **狀態：【研究／內容庫／後續提案】，不新增已確認的遊戲機制。** 已確認的 Odysstra 決策仍以 [11 章](../11-decisions-and-open-questions.md) 為準。完整原理與外部來源放在 [20 章](../20-exotic-energy-and-crystal-technologies.md) 與 [21 章](../21-planetary-mining-and-stellar-destruction.md)。
+> **狀態：【研究／內容庫／後續提案】，不新增已確認的遊戲機制。** 已確認的 Odysstra 決策仍以 [11 章](../11-decisions-and-open-questions.md) 為準。完整原理與外部來源放在 [ENERGY-01](../20-exotic-energy-and-crystal-technologies.md) 與 [ENERGY-02](../21-planetary-mining-and-stellar-destruction.md)。
 
 ## 議題演進：從「船怎麼飛」到「拆掉一顆星是否划算」
 
@@ -92,8 +92,8 @@
 ## 立刻可以交給下一個開發代理的操作指引
 
 1. **先讀 [11 已確認／待決](../11-decisions-and-open-questions.md)**，確保不改寫返鄉主題、艦隊規模、三門武器科技和戰勝國監控。
-2. 讀 [20 能源與晶體](../20-exotic-energy-and-crystal-technologies.md)，把已確認原作事實和原創假說拆開。
-3. 讀 [21 行星採礦經濟](../21-planetary-mining-and-stellar-destruction.md)，優先把拆星轉成**事件與物流成本**，不要立即做巨型全星系模擬。
+2. 讀 [ENERGY-01能源與晶體](../20-exotic-energy-and-crystal-technologies.md)，把已確認原作事實和原創假說拆開。
+3. 讀 [ENERGY-02行星採礦經濟](../21-planetary-mining-and-stellar-destruction.md)，優先把拆星轉成**事件與物流成本**，不要立即做巨型全星系模擬。
 4. 若要原型，先讓玩家在一個廢棄礦業星系面臨「搶材料／慢慢回收／交易／離開」的取捨，沿用既有資源 UI，不增新貨幣。
 5. 記錄結果：玩家是否理解舊圖和現況差異、是否願為材料拖延行程，以及戰勝國優先度變化是否可讀。
 6. **未執行測試標 Not run**，不得把此會議歸檔宣稱為已實裝功能。

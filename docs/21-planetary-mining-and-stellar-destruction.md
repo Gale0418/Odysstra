@@ -1,4 +1,7 @@
-# 21｜拆星致富？行星礦業、EVE 月礦、佛利札房地產與《群星》噬星經濟
+# ENERGY-02｜拆星致富？行星礦業、EVE 月礦、佛利札房地產與《群星》噬星經濟
+
+> **整併閱讀註（2026-11-16）：**本篇的原作考據／已知物理用於區分證據與創作，不覆蓋[最新本作決策](11-decisions-and-open-questions.md#current-baseline)。兩個霸權使用規則級科技已是背景設定；具體機制、玩家准入與本文工程方案仍須分項確認。數值估算不是性能實測；外部資料的版本與適用條件按原文日期保留。
+
 
 > **狀態：【跨作品研究／物理與經濟推導／Odysstra 事件提案】，不是已拍板玩法。**
 >
@@ -278,6 +281,6 @@ EVE 的 Moon Mining 在官方支援頁有明確的可操作流程：
 
 ---
 
-**關聯章節：**[05｜後勤資源](05-travel-economy-and-logistics.md)／[02｜停止更新星圖](02-galaxy-map-and-generation.md)／[07｜戰勝國](07-victor-expansion-and-intelligence.md)／[10｜遠古遺產](10-ancient-artifacts-and-easter-eggs.md)／[20｜能源水晶](20-exotic-energy-and-crystal-technologies.md)。
+**關聯章節：**[05｜後勤資源](05-travel-economy-and-logistics.md)／[02｜停止更新星圖](02-galaxy-map-and-generation.md)／[07｜戰勝國](07-victor-expansion-and-intelligence.md)／[10｜遠古遺產](10-ancient-artifacts-and-easter-eggs.md)／[ENERGY-01｜能源水晶](20-exotic-energy-and-crystal-technologies.md)。
 
 **本章是研究與提案，不是目前已實裝遊戲機制。** 
