@@ -61,6 +61,7 @@
 | [COSMO-03｜環世界以上的巨構與軍工](cosmo-03-stellar-megastructures-and-industrial-economy.md) | Ringworld、Dyson、Alderson、Matrioshka、Birch 與軍艦年產量瓶頸 |
 | [COSMO-04｜泰坦／移動環／同級戰爭](cosmo-04-titans-mobile-rings-and-peer-war.md) | 高價值泰坦與無人輔助、戰略超武類比、分散式文明韌性 |
 | [COSMO-05｜海洋與氣態都市視覺規範](cosmo-05-ocean-and-cloud-city-visual-briefs.md) | 兩張城市概念畫的相機、天體位置、無陸地限制、分層與圖像提示 |
+| [COSMO-06｜工程驗算與決策矩陣](cosmo-06-engineering-validation-and-decision-matrix.md) | 原理／推演證據分級、面積與人口估算、FMEA、艦船產能、同級文明戰爭、概念畫驗收 |
 | [會議歸檔｜理想城、巨構與星際戰爭](meetings/2026-11-16-civilization-and-megastructures.md) | 本次長討論全流程、工程結論、反方、版本與科幻 IP 修正 |
 | [開發與文件維護指引](../AGENTS.md) | 後續協作者的閱讀順序、需求來源、範圍及驗證方式 |
 
@@ -116,7 +117,7 @@
 
 ## COSMO｜行星文明、恆星巨構與超級戰爭（2026-11-16）
 
-[COSMO-01](cosmo-01-planetary-civilization-and-arcology.md)～[COSMO-05](cosmo-05-ocean-and-cloud-city-visual-briefs.md)與[宏觀會議歸檔](meetings/2026-11-16-civilization-and-megastructures.md)只作**物理／科幻推演、靈感庫與視覺委託**，不直接進入首版規格。海洋與氣態城市的「沒有陸地」、氣態天空不能再畫第二顆氣態星球等是使用者對本次圖像的明確要求，不是要求每個遊戲星系都具備都市。對話中的《Stellaris》4.4.6 舊資料需按 **2026-11-11 最新已發布的 4.5.4** 或後續版本重新核查。
+[COSMO-01](cosmo-01-planetary-civilization-and-arcology.md)～[COSMO-06](cosmo-06-engineering-validation-and-decision-matrix.md)與[宏觀會議歸檔](meetings/2026-11-16-civilization-and-megastructures.md)只作**物理／科幻推演、靈感庫與視覺委託**，不直接進入首版規格。海洋與氣態城市的「沒有陸地」、氣態天空不能再畫第二顆氣態星球等是使用者對本次圖像的明確要求，不是要求每個遊戲星系都具備都市。對話中的《Stellaris》4.4.6 舊資料需按 **2026-11-11 最新已發布的 4.5.4** 或後續版本重新核查。
 
 
 ### 2026-11-16｜AC、太空能源、後工作與創世倫理研究歸檔
