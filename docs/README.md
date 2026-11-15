@@ -46,6 +46,9 @@
 | [戰鬥 W05｜異質艦隊與戰爭殘骸](warfare-exotic-fleets.md) | 史萊姆、ELS／灰蠱、能量生命、零石、Beast、星環／戰爭月 |
 | [戰鬥 W06｜戰鬥原型試驗](warfare-prototype-tests.md) | WD-06～21，全部 Not run；不取代既有 32 項驗收 |
 | [會議歸檔｜三攻三防討論補全](meetings/2026-11-16-six-systems-reconstruction.md) | 原始定義、使用者更正、AI 延伸提案與待決事項 |
+| [20｜神奇能源、魔法水晶與反重力](20-exotic-energy-and-crystal-technologies.md) | 飛行石、七耀石、FF、水晶文明、Avatar 磁浮、能源／控制材料的物理邊界 |
+| [21｜拆星礦業、EVE、佛利札與群星](21-planetary-mining-and-stellar-destruction.md) | 軌道與能源成本、碎片回收、非法清倉、EVE 月礦、Star-Eater／Nomads 工法 |
+| [會議歸檔｜11/16 特殊能源與拆星討論](meetings/2026-11-16-energy-and-planetary-mining.md) | 跨時段長對話精要、事實／推論／待決分界、Odysstra 低成本事件候選 |
 | [會議歸檔｜11 月設計討論](meetings/2026-11-15-session-archive.md) | 19 輪脈絡、修正史、已否定設定索引 |
 | [開發與文件維護指引](../AGENTS.md) | 後續協作者的閱讀順序、需求來源、範圍及驗證方式 |
 
@@ -91,3 +94,10 @@
 使用者更正的重點：**炮射核融合彈仍是實彈；光子軌道炮發射的是光子裝甲衍生實體彈；點防不只反導，也能打戰機、蟲群與敵艦；布雷、一次性崗哨能把防線前推；研究是材料、能量、自律三科學，可單邊偏科。**
 
 第 18 章仍保留「先前只檢索到部分老設定」的歷史文字，W01～W06 才是使用者直接提供完整清單後的補完。原型計畫與平衡**待決**，原 [17 章](17-prototype-test-matrix.md) 的 32 項及 [18 章](18-weapons-defense-and-tech-doctrine.md) WD-01～05 不被取代；W06 的 WD-06～21 全部 Not run。
+
+
+### 2026-11-16 特殊能源與天體採礦研究歸檔
+
+本次另新增 [20 章](20-exotic-energy-and-crystal-technologies.md)、[21 章](21-planetary-mining-and-stellar-destruction.md) 與 [會議紀錄](meetings/2026-11-16-energy-and-planetary-mining.md)，綜整《空之軌跡》導力飛行、《天空之城》飛行石、FF／亞特蘭提斯水晶、可亞可亞ガルタイト、EVE 月礦、佛利札星球貿易和《群星》Star-Eater／2026《Nomads》天體再處理。
+
+**性質：研究、原作考據及可選事件素材。** 尤其不能把「有牽引光束」「已多次偷偷炸殖民星」「能靠反重力免除所有推進與碎片回收成本」當已證實設定；也沒有把行星破壞、額外貨幣或全新科技樹加入 Odysstra 的正式規格。
