@@ -12,6 +12,9 @@ Odysstra 是以戰後返鄉為核心的 **2D 太空艦隊沙盒企劃**。第三
 ## 從這裡開始
 
 - [完整文件索引](docs/README.md)
+- [奇妙能源與反重力研究｜第 20 章](docs/20-exotic-energy-and-crystal-technologies.md)
+- [拆星礦業與群星對照｜第 21 章](docs/21-planetary-mining-and-stellar-destruction.md)
+- [2026-11-16 跨作品能源／採礦會議歸檔](docs/meetings/2026-11-16-energy-and-planetary-mining.md)
 - [願景與世界觀](docs/01-vision-and-worldbuilding.md)
 - [決策紀錄、被否決方向與待決問題](docs/11-decisions-and-open-questions.md)
 - [會議脈絡與使用者決策摘要](docs/meetings/2026-11-15-session-archive.md)
@@ -81,3 +84,10 @@ Odysstra 是以戰後返鄉為核心的 **2D 太空艦隊沙盒企劃**。第三
 - [本輪設計會議歸檔](docs/meetings/2026-11-16-six-systems-reconstruction.md)
 
 **所有新增內容仍是設計資料，不代表已經有遊戲實作、平衡數字、可用的神級武器或通過測試。** 既有返鄉核心、旗艦死亡及母星結局不改。
+
+
+## 追加跨作品研究（2026-11-16）
+
+已收錄完整的**奇蹟能源／反重力材料比較**與**行星拆解的物理、經濟、法律及太空物流研究**，並確認《群星》的 Star-Eater（毀滅恆星系換暗物質）與《Nomads》Planetary Reprocessing（破壞性回收非宜居天體資源）是不同機制。
+
+兩章均標示原作事實、物理推導、聊天假說與 Odysstra **【提案／內容庫／待決】**。這些材料**不代表新增已定案的殲星玩法、科技樹、資源條或可執行遊戲功能**；參考[第 20 章](docs/20-exotic-energy-and-crystal-technologies.md)、[第 21 章](docs/21-planetary-mining-and-stellar-destruction.md)。
