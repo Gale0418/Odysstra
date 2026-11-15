@@ -49,7 +49,13 @@
 | [20｜神奇能源、魔法水晶與反重力](20-exotic-energy-and-crystal-technologies.md) | 飛行石、七耀石、FF、水晶文明、Avatar 磁浮、能源／控制材料的物理邊界 |
 | [21｜拆星礦業、EVE、佛利札與群星](21-planetary-mining-and-stellar-destruction.md) | 軌道與能源成本、碎片回收、非法清倉、EVE 月礦、Star-Eater／Nomads 工法 |
 | [會議歸檔｜11/16 特殊能源與拆星討論](meetings/2026-11-16-energy-and-planetary-mining.md) | 跨時段長對話精要、事實／推論／待決分界、Odysstra 低成本事件候選 |
+| [20｜太空太陽能與 AC 分層架構](20-space-solar-and-ac-architecture.md) | 2061 一英里能源站、Solar Swarm 條件估算、艦載 Microvac 與文明級 AC、私人算力 vs 當代前沿 |
+| [21｜AI 時代、後工作與八種社會世界線](21-ai-society-and-post-work-futures.md) | Cyberpunk、Star Trek、Solarpunk、WALL-E、一人公司、全民股東、科技封建與分配制度 |
+| [22｜文明科技樹與終極 Boss](22-civilization-endgame-tech-tree.md) | 12 階科技框架；能源、光速、量子重力、資訊、計算不可判定、意識、意義 |
+| [23｜模擬世界、創世與造物者倫理](23-simulations-and-creator-ethics.md) | 《最後的問題》《天降之物》《異次元駭客》《大雄的創世日記》交叉分析與未核實聲明 |
+| [24｜對接 Odysstra 的遠古文明內容庫](24-odysstra-civilization-integration.md) | 6 個低成本事件、巨構內容候選、既有玩法保護與開發延後規則 |
 | [會議歸檔｜11 月設計討論](meetings/2026-11-15-session-archive.md) | 19 輪脈絡、修正史、已否定設定索引 |
+| [會議歸檔｜AC、後稀缺、創世倫理](meetings/2026-11-16-ac-postscarcity-creation-archive.md) | 跨輪對話的 14 個階段、5 項共識、糾錯、科學與文學事實分層 |
 | [COSMO-01｜行星終極開發與理想城](cosmo-01-planetary-civilization-and-arcology.md) | Ecumenopolis 3 階段、科技與基建黑科技、終極行星類型、產業分工 |
 | [COSMO-02｜海洋／氣態三維理想城](cosmo-02-pelagic-and-atmospheric-arcologies.md) | 歐羅巴與水世界、深海體積／壓力、巨行星浮空城、氫能源與物理盲點 |
 | [COSMO-03｜環世界以上的巨構與軍工](cosmo-03-stellar-megastructures-and-industrial-economy.md) | Ringworld、Dyson、Alderson、Matrioshka、Birch 與軍艦年產量瓶頸 |
@@ -111,3 +117,10 @@
 ## COSMO｜行星文明、恆星巨構與超級戰爭（2026-11-16）
 
 [COSMO-01](cosmo-01-planetary-civilization-and-arcology.md)～[COSMO-05](cosmo-05-ocean-and-cloud-city-visual-briefs.md)與[宏觀會議歸檔](meetings/2026-11-16-civilization-and-megastructures.md)只作**物理／科幻推演、靈感庫與視覺委託**，不直接進入首版規格。海洋與氣態城市的「沒有陸地」、氣態天空不能再畫第二顆氣態星球等是使用者對本次圖像的明確要求，不是要求每個遊戲星系都具備都市。對話中的《Stellaris》4.4.6 舊資料需按 **2026-11-11 最新已發布的 4.5.4** 或後續版本重新核查。
+
+
+### 2026-11-16｜AC、太空能源、後工作與創世倫理研究歸檔
+
+使用者要求將《最後的問題》引發的長篇討論詳盡保存在 Odysstra。新增第 20～24 章及一份 [會議摘要](meetings/2026-11-16-ac-postscarcity-creation-archive.md)：涵蓋 2061 年太空太陽能、私人／行星／宇宙級 AI、科技與福利分配、不同 -punk 類型、文明終極科技樹、模擬世界和非預期智慧文明，以及如何轉化為**不破壞返鄉玩法**的原創內容。
+
+**本次「已確認」只有歸檔動作與使用者討論中的明確觀點，不代表任何新 AI、戴森群、創世套組或宇宙末日系統已被採納為 Odysstra 正式玩法。** 第 24 章的事件卡全部是【內容庫／提案】，而非首版開發清單；遊戲仍處於文件階段。
