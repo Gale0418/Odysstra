@@ -38,6 +38,7 @@
 | [17｜原型驗收案例](17-prototype-test-matrix.md) | 32 個尚未執行的案例、三個遊玩實驗與結果紀錄模板 |
 | [18｜三類武器、防禦與偏科科技](18-weapons-defense-and-tech-doctrine.md) | 9 月 15 日歷史設定回查、科技名稱、未知交互與對接提案 |
 | [19｜美食星球、顆粒世界與可食冰沙地貌](19-edible-worlds-and-food-planet.md) | 顆粒地貌物理、Titan／Bennu 科學基線、真正可食的五道門檻、可可藻與巧克力冰沙湖提案 |
+| [20｜太陽能文明與 AC：從 2061 能源站到私人 Microvac](20-space-solar-and-ac-architecture.md) | 《最後的問題》的能源／超級電腦文明構想、艦載 Microvac 與科學邊界；非既定玩法 |
 | [戰鬥 W01｜三大武器完整名錄](warfare-weapons.md) | 原始 15 實彈＋15 射線＋16 導彈、分類與機理提案 |
 | [戰鬥 W02｜三防與點防部署](warfare-defenses.md) | 裝甲／護盾原名、反導／戰機／蟲群、地雷與一次性崗哨 |
 | [戰鬥 W03｜三大科研與文明戰法](warfare-doctrines.md) | 材料、能量、自律偏科；正面會戰與補給續戰 |
