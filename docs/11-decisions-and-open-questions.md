@@ -169,7 +169,7 @@
 
 **【使用者直接指定的視覺要求】** 海洋星球概念圖需高空俯視、可見天空、飛船、海上及海下無邊城市、不得有自然陸地；氣態巨星概念圖需可見雲上／雲下的無邊浮空都市、天空與飛船，完全無地面，**不能在背景再放另一顆氣態巨星**，但可有大型岩質／冰衛星或本星球星環。這是**該組概念圖的已明確限制**，不是本作地標／技術樹已定案。
 
-**【使用者提出研究議題，不代表採納成玩法】** 理想城由地表→天空→行星城市機器的分級、海洋作三維建地、氣態／冰巨星浮空城、巨行星城市 PK 環世界、Dyson 以上巨構、戰艦年下水率、只造高品質泰坦、移動環世界級戰略平台，以及同級文明彼此威懾與工業重建戰。完整保存於 [COSMO-01](cosmo-01-planetary-civilization-and-arcology.md)、[COSMO-02](cosmo-02-pelagic-and-atmospheric-arcologies.md)、[COSMO-03](cosmo-03-stellar-megastructures-and-industrial-economy.md)、[COSMO-04](cosmo-04-titans-mobile-rings-and-peer-war.md)、[COSMO-05](cosmo-05-ocean-and-cloud-city-visual-briefs.md) 與 [會議歸檔](meetings/2026-11-16-civilization-and-megastructures.md)。
+**【使用者提出研究議題，不代表採納成玩法】** 理想城由地表→天空→行星城市機器的分級、海洋作三維建地、氣態／冰巨星浮空城、巨行星城市 PK 環世界、Dyson 以上巨構、戰艦年下水率、只造高品質泰坦、移動環世界級戰略平台，以及同級文明彼此威懾與工業重建戰。完整保存於 [COSMO-01](cosmo-01-planetary-civilization-and-arcology.md)、[COSMO-02](cosmo-02-pelagic-and-atmospheric-arcologies.md)、[COSMO-03](cosmo-03-stellar-megastructures-and-industrial-economy.md)、[COSMO-04](cosmo-04-titans-mobile-rings-and-peer-war.md)、[COSMO-05](cosmo-05-ocean-and-cloud-city-visual-briefs.md)、[COSMO-06](cosmo-06-engineering-validation-and-decision-matrix.md) 與 [會議歸檔](meetings/2026-11-16-civilization-and-megastructures.md)。
 
 **【保留既有約束】** 不能因本輪巨構話題改掉約百艘完整同鄉軍、固定母星 Happy End、戰勝國全圖監視但須調兵、旗艦被擊沉即 Game Over、或把泰坦和戰略超武改成開局必備；不向 P-001 加入新行星殖民和 Dyson 網模擬器。前宗主國與戰勝國可有宏大遺產背景，正式可互動內容仍需個別標記【提案／待決】及原型驗證。
 
