@@ -8,6 +8,7 @@
 2. 做原型前讀 [P-001 與風險](docs/09-production-risks-and-prototypes.md)、[玩法邊界補強](docs/16-playability-contracts.md) 和 [驗收案例](docs/17-prototype-test-matrix.md)。
 3. 依任務再讀對應系統章節；事件庫、彩蛋庫與地標候選不是必做清單。
 4. 若修改武器、護盾、點防、偏科文明、異質艦隊或神級遺產，先讀 [第18章總論](docs/18-weapons-defense-and-tech-doctrine.md) 及 [戰鬥專題 W01～W06](docs/README.md)。補完的設計清單不等於首版承諾。
+5. 若涉及 Ecumenopolis、海洋／氣態巨星城市、環世界／戴森巨構、泰坦專用工業、移動戰鬥環或對等超文明戰爭，先讀 [COSMO-01～06 的索引](docs/README.md) 與 [COSMO-06 工程驗算與決策矩陣](docs/cosmo-06-engineering-validation-and-decision-matrix.md)。區分觀測、幾何思想實驗、原作資料、原創提案與待決數值；不把宏大背景默認成玩家可以量產的功能。
 
 最新使用者明確決策高於歷史文件；已確認決策高於 AI 提案。使用者允許補充文件，不代表其中每項補充已變成正式遊戲規格。遇到未決處，保留【提案／待決】；原型所需的暫定值另標【測試預設】，不要冒充拍板。
 
