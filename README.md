@@ -91,3 +91,16 @@ Odysstra 是以戰後返鄉為核心的 **2D 太空艦隊沙盒企劃**。第三
 已收錄完整的**奇蹟能源／反重力材料比較**與**行星拆解的物理、經濟、法律及太空物流研究**，並確認《群星》的 Star-Eater（毀滅恆星系換暗物質）與《Nomads》Planetary Reprocessing（破壞性回收非宜居天體資源）是不同機制。
 
 兩章均標示原作事實、物理推導、聊天假說與 Odysstra **【提案／內容庫／待決】**。這些材料**不代表新增已定案的殲星玩法、科技樹、資源條或可執行遊戲功能**；參考[第 20 章](docs/20-exotic-energy-and-crystal-technologies.md)、[第 21 章](docs/21-planetary-mining-and-stellar-destruction.md)。
+
+## 2026-11-16｜COSMO：從行星理想城到巨構戰爭的宏觀世界觀研究
+
+新增 **5 份 COSMO 專題文件＋1 份完整會議歸檔**。涵蓋理想城黑科技與行星終局、三維海洋及氣態天空都市、環世界以上的恆星級巨構、戰艦年產量、泰坦／移動戰鬥環、同級文明戰爭與概念圖的科學化構圖。
+
+- [COSMO-01｜行星終極開發與理想城科技](docs/cosmo-01-planetary-civilization-and-arcology.md)
+- [COSMO-02｜海洋與氣態／冰巨星立體都市](docs/cosmo-02-pelagic-and-atmospheric-arcologies.md)
+- [COSMO-03｜環世界以上巨構與恆星級軍工](docs/cosmo-03-stellar-megastructures-and-industrial-economy.md)
+- [COSMO-04｜泰坦、移動環世界與同級文明戰爭](docs/cosmo-04-titans-mobile-rings-and-peer-war.md)
+- [COSMO-05｜海洋／氣態超級都市概念美術規範](docs/cosmo-05-ocean-and-cloud-city-visual-briefs.md)
+- [宏觀世界觀會議歸檔](docs/meetings/2026-11-16-civilization-and-megastructures.md)
+
+**範圍聲明：**此系列為【研究／提案／內容庫／美術指定】，不擴大首版 P-001 開發、不修改百艘軍團返鄉與母星 Happy End 等已確認設定。過往討論使用《Stellaris》4.4.6 作參照；到 2026-11-16 已發布 **4.5.4（11 月 11 日）**，歷史數字需重新查核，不能當作本作已確認規則。本文僅新增設計文件，沒有加入遊戲執行程式或上傳本次概念畫原檔。

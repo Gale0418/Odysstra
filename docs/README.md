@@ -50,6 +50,12 @@
 | [21｜拆星礦業、EVE、佛利札與群星](21-planetary-mining-and-stellar-destruction.md) | 軌道與能源成本、碎片回收、非法清倉、EVE 月礦、Star-Eater／Nomads 工法 |
 | [會議歸檔｜11/16 特殊能源與拆星討論](meetings/2026-11-16-energy-and-planetary-mining.md) | 跨時段長對話精要、事實／推論／待決分界、Odysstra 低成本事件候選 |
 | [會議歸檔｜11 月設計討論](meetings/2026-11-15-session-archive.md) | 19 輪脈絡、修正史、已否定設定索引 |
+| [COSMO-01｜行星終極開發與理想城](cosmo-01-planetary-civilization-and-arcology.md) | Ecumenopolis 3 階段、科技與基建黑科技、終極行星類型、產業分工 |
+| [COSMO-02｜海洋／氣態三維理想城](cosmo-02-pelagic-and-atmospheric-arcologies.md) | 歐羅巴與水世界、深海體積／壓力、巨行星浮空城、氫能源與物理盲點 |
+| [COSMO-03｜環世界以上的巨構與軍工](cosmo-03-stellar-megastructures-and-industrial-economy.md) | Ringworld、Dyson、Alderson、Matrioshka、Birch 與軍艦年產量瓶頸 |
+| [COSMO-04｜泰坦／移動環／同級戰爭](cosmo-04-titans-mobile-rings-and-peer-war.md) | 高價值泰坦與無人輔助、戰略超武類比、分散式文明韌性 |
+| [COSMO-05｜海洋與氣態都市視覺規範](cosmo-05-ocean-and-cloud-city-visual-briefs.md) | 兩張城市概念畫的相機、天體位置、無陸地限制、分層與圖像提示 |
+| [會議歸檔｜理想城、巨構與星際戰爭](meetings/2026-11-16-civilization-and-megastructures.md) | 本次長討論全流程、工程結論、反方、版本與科幻 IP 修正 |
 | [開發與文件維護指引](../AGENTS.md) | 後續協作者的閱讀順序、需求來源、範圍及驗證方式 |
 
 ## 核心一頁摘要
@@ -101,3 +107,7 @@
 本次另新增 [20 章](20-exotic-energy-and-crystal-technologies.md)、[21 章](21-planetary-mining-and-stellar-destruction.md) 與 [會議紀錄](meetings/2026-11-16-energy-and-planetary-mining.md)，綜整《空之軌跡》導力飛行、《天空之城》飛行石、FF／亞特蘭提斯水晶、可亞可亞ガルタイト、EVE 月礦、佛利札星球貿易和《群星》Star-Eater／2026《Nomads》天體再處理。
 
 **性質：研究、原作考據及可選事件素材。** 尤其不能把「有牽引光束」「已多次偷偷炸殖民星」「能靠反重力免除所有推進與碎片回收成本」當已證實設定；也沒有把行星破壞、額外貨幣或全新科技樹加入 Odysstra 的正式規格。
+
+## COSMO｜行星文明、恆星巨構與超級戰爭（2026-11-16）
+
+[COSMO-01](cosmo-01-planetary-civilization-and-arcology.md)～[COSMO-05](cosmo-05-ocean-and-cloud-city-visual-briefs.md)與[宏觀會議歸檔](meetings/2026-11-16-civilization-and-megastructures.md)只作**物理／科幻推演、靈感庫與視覺委託**，不直接進入首版規格。海洋與氣態城市的「沒有陸地」、氣態天空不能再畫第二顆氣態星球等是使用者對本次圖像的明確要求，不是要求每個遊戲星系都具備都市。對話中的《Stellaris》4.4.6 舊資料需按 **2026-11-11 最新已發布的 4.5.4** 或後續版本重新核查。
