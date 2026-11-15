@@ -5,7 +5,14 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/docs-review.yml'
-      - 'tools/check_docs.py'
+      - 'tools/**'
+      - 'docs/**'
+      - 'README.md'
+      - 'AGENTS.md'
+  pull_request:
+    paths:
+      - '.github/workflows/docs-review.yml'
+      - 'tools/**'
       - 'docs/**'
       - 'README.md'
       - 'AGENTS.md'
@@ -19,34 +26,37 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Check out the exact public repository revision
+      - name: Check out exact public repository revision
         env:
           SOURCE_SHA: ${{ github.sha }}
           SOURCE_REPOSITORY: ${{ github.repository }}
         run: |
+          set -euo pipefail
           git init .
           git remote add origin "https://github.com/${SOURCE_REPOSITORY}.git"
           git fetch --depth=1 origin "$SOURCE_SHA"
           git checkout --detach FETCH_HEAD
-      - name: Inspect and bundle documentation
+      - name: Run documentation-tool unit tests
+        run: python3 -m unittest discover -s tools -p 'test_*.py' -v
+      - name: Check local references, headings and registry
+        run: python3 tools/check_docs.py --root . --report /tmp/odysstra-docs-review/check-report.json
+      - name: Bundle documentation and evidence
+        if: always()
         run: |
           python3 - <<'PY'
-          import hashlib, json, pathlib, zipfile
+          import hashlib, json, pathlib, subprocess, zipfile
           root = pathlib.Path('.')
-          files = sorted(p for p in root.rglob('*.md') if '.git' not in p.parts)
+          files = sorted(p for p in root.rglob('*') if p.is_file() and '.git' not in p.parts and (p.suffix == '.md' or p.as_posix() == 'docs/document-map.json' or (p.parts[0] == 'tools' and p.suffix == '.py')))
           out = pathlib.Path('/tmp/odysstra-docs-review')
           out.mkdir(parents=True, exist_ok=True)
-          manifest = [{'path': p.as_posix(), 'bytes': p.stat().st_size,
-                       'sha256': hashlib.sha256(p.read_bytes()).hexdigest()} for p in files]
+          manifest = [{'path': p.as_posix(), 'bytes': p.stat().st_size, 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()} for p in files]
           (out / 'inventory.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
+          (out / 'commit.txt').write_text(subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True), encoding='utf-8')
           with zipfile.ZipFile(out / 'documentation.zip', 'w', zipfile.ZIP_DEFLATED) as z:
               for p in files:
                   z.write(p, p.as_posix())
-          print(f'Documentation inventory: {len(files)} Markdown files; content review and game tests are separate.')
+          print('This bundle verifies documents only; game tests and external-source fact checks are separate.')
           PY
-          if test -f tools/check_docs.py; then
-            python3 tools/check_docs.py --root . --report /tmp/odysstra-docs-review/check-report.json
-          fi
       - name: Upload documentation-only review bundle
         if: always()
         uses: actions/upload-artifact@v4
