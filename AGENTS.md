@@ -7,6 +7,7 @@
 1. 先讀 [README](README.md) 及 [決策紀錄](docs/11-decisions-and-open-questions.md)。
 2. 做原型前讀 [P-001 與風險](docs/09-production-risks-and-prototypes.md)、[玩法邊界補強](docs/16-playability-contracts.md) 和 [驗收案例](docs/17-prototype-test-matrix.md)。
 3. 依任務再讀對應系統章節；事件庫、彩蛋庫與地標候選不是必做清單。
+4. 若修改武器、護盾、點防、偏科文明、異質艦隊或神級遺產，先讀 [第18章總論](docs/18-weapons-defense-and-tech-doctrine.md) 及 [戰鬥專題 W01～W06](docs/README.md)。補完的設計清單不等於首版承諾。
 
 最新使用者明確決策高於歷史文件；已確認決策高於 AI 提案。使用者允許補充文件，不代表其中每項補充已變成正式遊戲規格。遇到未決處，保留【提案／待決】；原型所需的暫定值另標【測試預設】，不要冒充拍板。
 

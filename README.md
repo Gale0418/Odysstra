@@ -66,3 +66,18 @@ Odysstra 是以戰後返鄉為核心的 **2D 太空艦隊沙盒企劃**。第三
 新增的 [第 16 章](docs/16-playability-contracts.md) 整理遊戲時鐘、停更軍圖的資料分層、敵軍調度、人口記帳、資源與存檔等邊界；另含軍團航行簿與舊圖對照的小型內容提案。[第 17 章](docs/17-prototype-test-matrix.md) 提供 32 項驗收案例及三個遊玩實驗。
 
 **上述均為補充提案與測試設計，沒有新增已確認玩法，也沒有任何遊戲測試通過紀錄。** 後續開發可依 [AGENTS.md](AGENTS.md) 辨認已確認事項、提案、測試預設與實際成果。
+
+
+## 2026-11-16｜六大攻防與科幻艦隊設定（戰鬥專題 W）
+
+由使用者提供的歷史完整清單與後續設計結論，建立獨立「戰鬥專題」文件群，**不干擾既有第 19 章美食星球、第 20 章等其他世界觀內容**：
+
+- [W01｜實彈／射線／導彈完整原始 46 種武器](docs/warfare-weapons.md)
+- [W02｜裝甲、護盾、點防攔截與地雷／崗哨](docs/warfare-defenses.md)
+- [W03｜材料、能量、自律三種偏科文明的戰術與續戰](docs/warfare-doctrines.md)
+- [W04｜普通／神級規則模組、存在抹殺、要塞炮](docs/warfare-rule-modules.md)
+- [W05｜史萊姆、ELS＋灰蠱、能量生命、Beast 與戰爭星環](docs/warfare-exotic-fleets.md)
+- [W06｜六系最小原型與未執行測試](docs/warfare-prototype-tests.md)
+- [本輪設計會議歸檔](docs/meetings/2026-11-16-six-systems-reconstruction.md)
+
+**所有新增內容仍是設計資料，不代表已經有遊戲實作、平衡數字、可用的神級武器或通過測試。** 既有返鄉核心、旗艦死亡及母星結局不改。
