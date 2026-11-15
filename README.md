@@ -14,8 +14,10 @@ Odysstra 是以戰後返鄉為核心的 **2D 太空艦隊沙盒企劃**。第三
 - [完整文件索引](docs/README.md)
 - [願景與世界觀](docs/01-vision-and-worldbuilding.md)
 - [決策紀錄、被否決方向與待決問題](docs/11-decisions-and-open-questions.md)
-- [會議脈絡與使用者原話索引](docs/meetings/2026-11-15-session-archive.md)
+- [會議脈絡與使用者決策摘要](docs/meetings/2026-11-15-session-archive.md)
 - [風險、原型與開發範圍](docs/09-production-risks-and-prototypes.md)
+- [玩法邊界補強提案](docs/16-playability-contracts.md)／[32 項原型驗收案例](docs/17-prototype-test-matrix.md)
+- [開發與文件維護指引](AGENTS.md)
 
 ## 核心定位
 
@@ -58,3 +60,9 @@ Odysstra 是以戰後返鄉為核心的 **2D 太空艦隊沙盒企劃**。第三
 ## 開發現況
 
 這次提交只建立設計基線，**沒有遊戲程式、可執行版本、完成的平衡數值或性能測試結果**。引擎、發行平台、授權方式與開發排程仍待決定。先用縮小戰區驗證航行、戰鬥、補給及接管壓力，再擴充正式內容。
+
+## 追加補強（2026-11-15）
+
+新增的 [第 16 章](docs/16-playability-contracts.md) 整理遊戲時鐘、停更軍圖的資料分層、敵軍調度、人口記帳、資源與存檔等邊界；另含軍團航行簿與舊圖對照的小型內容提案。[第 17 章](docs/17-prototype-test-matrix.md) 提供 32 項驗收案例及三個遊玩實驗。
+
+**上述均為補充提案與測試設計，沒有新增已確認玩法，也沒有任何遊戲測試通過紀錄。** 後續開發可依 [AGENTS.md](AGENTS.md) 辨認已確認事項、提案、測試預設與實際成果。
