@@ -1,0 +1,74 @@
+name: One-time reviewed documentation curation
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/docs-curation-once.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: odysstra-docs-curation-once
+  cancel-in-progress: false
+
+jobs:
+  curate:
+    if: github.repository == 'Gale0418/Odysstra'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+      - name: Reject concurrent updates and verify reviewed baseline
+        env:
+          EXPECTED_HEAD: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          actual="$(git ls-remote origin refs/heads/main | cut -f1)"
+          test "$actual" = "$EXPECTED_HEAD"
+          python3 .github/maintenance/curate_docs.py .
+          mkdir -p tools
+          cp .github/maintenance/check_docs.py.in tools/check_docs.py
+          cp .github/maintenance/test_check_docs.py.in tools/test_check_docs.py
+      - name: Validate documentation tooling and all local references
+        run: |
+          set -euo pipefail
+          python3 -m unittest discover -s tools -p 'test_*.py' -v
+          python3 tools/check_docs.py --root . --report /tmp/odysstra-curation/check-report.json
+      - name: Commit only reviewed documentation and checker files
+        env:
+          EXPECTED_HEAD: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          actual="$(git ls-remote origin refs/heads/main | cut -f1)"
+          test "$actual" = "$EXPECTED_HEAD"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- README.md AGENTS.md docs tools/check_docs.py tools/test_check_docs.py
+          git diff --cached --check
+          git commit -m 'docs: curate full design archive and integrate modular weapon proposals'
+          git push origin HEAD:main
+          git rev-parse HEAD > /tmp/odysstra-curation/result-commit.txt
+      - name: Bundle verified documentation
+        run: |
+          python3 - <<'PY'
+          import pathlib, zipfile, hashlib, json
+          root = pathlib.Path('.')
+          out = pathlib.Path('/tmp/odysstra-curation')
+          files = sorted(p for p in root.rglob('*') if p.is_file() and '.git' not in p.parts and (p.suffix == '.md' or p.as_posix() == 'docs/document-map.json' or (p.parts[0] == 'tools' and p.suffix == '.py')))
+          with zipfile.ZipFile(out / 'curated-documentation.zip', 'w', zipfile.ZIP_DEFLATED) as z:
+              for p in files:
+                  z.write(p, p.as_posix())
+          (out / 'inventory.json').write_text(json.dumps([{'path': p.as_posix(), 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()} for p in files], ensure_ascii=False, indent=2), encoding='utf-8')
+          PY
+      - name: Upload this run's evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: curated-documentation-${{ github.sha }}
+          path: /tmp/odysstra-curation/
+          retention-days: 1
+          if-no-files-found: warn
