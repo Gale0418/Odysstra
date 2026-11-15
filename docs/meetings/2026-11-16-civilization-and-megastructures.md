@@ -211,6 +211,7 @@ NASA Jupiter：https://science.nasa.gov/jupiter/jupiter-facts/ ；Neptune：http
 - [COSMO-03｜環世界以上巨構與戰艦產能](../cosmo-03-stellar-megastructures-and-industrial-economy.md)
 - [COSMO-04｜泰坦、移動環與對等文明戰爭](../cosmo-04-titans-mobile-rings-and-peer-war.md)
 - [COSMO-05｜兩張理想城概念圖視覺規範](../cosmo-05-ocean-and-cloud-city-visual-briefs.md)
+- [COSMO-06｜工程驗算、失效模式與跨方案決策矩陣](../cosmo-06-engineering-validation-and-decision-matrix.md)
 - 《Stellaris》官方 4.5.4 公告：https://steamcommunity.com/app/281990/allnews/ （2026-11-11）
 - NASA Europa Clipper FAQ：https://europa.nasa.gov/mission/faq/
 - NASA Jupiter：https://science.nasa.gov/jupiter/jupiter-facts/
