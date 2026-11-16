@@ -59,3 +59,8 @@ python3 -m unittest discover -s tools -p 'test_*.py'
 ## 🍗 銀河美食巨獸與風味素材庫（2026-11-16）
 
 [WORLD-03｜97 種風味標籤](docs/world-03-galactic-flavor-catalog.md)保存使用者貼出的全部七類口味（靈感清單，不等於市場全商品清查）；[WORLD-04｜偽行星美食巨獸](docs/world-04-pseudoplanet-gourmet-megafauna.md)收錄炸雞味翻車魚、牛排味星鯨、奶油水母、烤魷魚環帶獸等共 12 種**可選**生命形態及 FX01–FX12 遭遇。依使用者方向**全部保留低機率隨機出現的可能**，不定案每局事件數、爆率、實裝船艦／美食系統；普通星系仍需保持大量安靜且低收益的狀態，軍圖客觀物理價值仍須可靠。
+
+## 🧋 軌道熟成與二十種飲料世界（2026-11-16）
+
+[WORLD-05｜巨獸風味隨環境變化](docs/world-05-orbital-marination-and-flavor-state.md)保留使用者的「日曬脆皮、外緣冰鎮、飲料星泡澡入味」靈感；[WORLD-06｜飲料世界二十景](docs/world-06-beverage-worlds-and-carbonation-physics.md)整理 BV01–BV20，其中四項對照原有 G25–G28，另十六種為新候選。**CO₂ 湖可能局部大量逸氣，但不因此整個星球爆炸；衛星量級巨獸不能直接泡海而忽略重力衝擊。** 全部為低機率可選世界觀素材，不表示已實作、新增 20 個固定地標或改變返鄉目標。
+

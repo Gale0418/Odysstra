@@ -358,6 +358,20 @@
       "title": "WORLD-04｜偽行星級太空巨獸、炸雞味翻車魚與稀有遭遇",
       "category": "world",
       "status": "使用者提出的完整風味與稀有巨獸題材；所有原創名稱／12遭遇與測試均為內容庫／未實作"
+    },
+    {
+      "id": "WORLD-05",
+      "path": "docs/world-05-orbital-marination-and-flavor-state.md",
+      "title": "WORLD-05｜軌道熟成、巨獸環境入味與可持久化風味狀態",
+      "category": "world",
+      "status": "使用者提出環境熟成與飲料世界靈感；具體候選／事件為提案，非遊戲實作"
+    },
+    {
+      "id": "WORLD-06",
+      "path": "docs/world-06-beverage-worlds-and-carbonation-physics.md",
+      "title": "WORLD-06｜飲料星球二十景、液態海與氣泡行星事故",
+      "category": "world",
+      "status": "使用者提出環境熟成與飲料世界靈感；具體候選／事件為提案，非遊戲實作"
     }
   ]
 }
