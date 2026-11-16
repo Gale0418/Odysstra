@@ -344,6 +344,20 @@
       "title": "WORLD-02｜帝國低價值生態星與銀河美食狩獵內容庫",
       "category": "world",
       "status": "使用者提出四種飲料星題材；G01–G28 生態候選／GE01–GE10 事件皆屬內容庫，非實作"
+    },
+    {
+      "id": "WORLD-03",
+      "path": "docs/world-03-galactic-flavor-catalog.md",
+      "title": "WORLD-03｜97 種風味標籤與銀河美食生成語法",
+      "category": "world",
+      "status": "使用者提出的完整風味與稀有巨獸題材；所有原創名稱／12遭遇與測試均為內容庫／未實作"
+    },
+    {
+      "id": "WORLD-04",
+      "path": "docs/world-04-pseudoplanet-gourmet-megafauna.md",
+      "title": "WORLD-04｜偽行星級太空巨獸、炸雞味翻車魚與稀有遭遇",
+      "category": "world",
+      "status": "使用者提出的完整風味與稀有巨獸題材；所有原創名稱／12遭遇與測試均為內容庫／未實作"
     }
   ]
 }

@@ -75,6 +75,8 @@
 | ENERGY-02 | [ENERGY-02｜拆星致富？行星礦業、EVE 月礦、佛利札房地產與《群星》噬星經濟](21-planetary-mining-and-stellar-destruction.md) | 研究／提案；個別已確認背景另標 |
 | WORLD-01 | [WORLD-01｜美食星球、顆粒世界與可食冰沙地貌](19-edible-worlds-and-food-planet.md) | 研究／提案；個別已確認背景另標 |
 | WORLD-02 | [WORLD-02｜帝國低價值生態星與銀河美食狩獵內容庫](world-02-gourmet-ecosystems-and-imperial-low-value.md) | 使用者確認物理資源與美食評價需分離；G01–G28 共 28 種候選／GE01–GE10 共十張事件均為內容庫 |
+| WORLD-03 | [WORLD-03｜97 種風味標籤與銀河美食生成語法](world-03-galactic-flavor-catalog.md) | 使用者提供 7 大類 97 條風味靈感；非已查證商品全集；生成素材庫 |
+| WORLD-04 | [WORLD-04｜偽行星級太空巨獸、炸雞味翻車魚與稀有遭遇](world-04-pseudoplanet-gourmet-megafauna.md) | 使用者希望全收錄的稀有隨機巨獸；12 種原創候選、12 個事件與未執行測試 |
 
 ## 歷史會議摘要
 
