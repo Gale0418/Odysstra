@@ -337,6 +337,13 @@
       "title": "AUDIT-20261116｜全文件審查、整理與武器移植記錄",
       "category": "governance",
       "status": "文件審查記錄，非遊戲驗收"
+    },
+    {
+      "id": "WORLD-02",
+      "path": "docs/world-02-gourmet-ecosystems-and-imperial-low-value.md",
+      "title": "WORLD-02｜帝國低價值生態星與銀河美食狩獵內容庫",
+      "category": "world",
+      "status": "使用者確認物理資源與味覺差異；24種候選／六張事件為內容庫"
     }
   ]
 }

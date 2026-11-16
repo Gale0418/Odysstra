@@ -74,6 +74,7 @@
 | ENERGY-01 | [ENERGY-01｜奇蹟礦物、反重力、魔法水晶與超文明能源：跨作品技術考據](20-exotic-energy-and-crystal-technologies.md) | 研究／提案；個別已確認背景另標 |
 | ENERGY-02 | [ENERGY-02｜拆星致富？行星礦業、EVE 月礦、佛利札房地產與《群星》噬星經濟](21-planetary-mining-and-stellar-destruction.md) | 研究／提案；個別已確認背景另標 |
 | WORLD-01 | [WORLD-01｜美食星球、顆粒世界與可食冰沙地貌](19-edible-worlds-and-food-planet.md) | 研究／提案；個別已確認背景另標 |
+| WORLD-02 | [WORLD-02｜帝國低價值生態星與銀河美食狩獵內容庫](world-02-gourmet-ecosystems-and-imperial-low-value.md) | 使用者確認物理資源與美食評價需分離；24 種原創候選／六張事件均為內容庫 |
 
 ## 歷史會議摘要
 
