@@ -64,3 +64,6 @@ python3 -m unittest discover -s tools -p 'test_*.py'
 
 [WORLD-05｜巨獸風味隨環境變化](docs/world-05-orbital-marination-and-flavor-state.md)保留使用者的「日曬脆皮、外緣冰鎮、飲料星泡澡入味」靈感；[WORLD-06｜飲料世界二十景](docs/world-06-beverage-worlds-and-carbonation-physics.md)整理 BV01–BV20，其中四項對照原有 G25–G28，另十六種為新候選。**CO₂ 湖可能局部大量逸氣，但不因此整個星球爆炸；衛星量級巨獸不能直接泡海而忽略重力衝擊。** 全部為低機率可選世界觀素材，不表示已實作、新增 20 個固定地標或改變返鄉目標。
 
+## 🍑 普通奇景行星（2026-11-17）
+
+[WORLD-07｜12 種較貼近自然科學的普通奇景行星](docs/world-07-plausible-planetary-biomes.md)將「水蜜桃香海洋」等 PB01–PB12 放入可重複組合的**環境／生態模板**，獨立於 WORLD-01 的超稀有真正可食世界和 WORLD-06 的奇幻飲料世界；收錄 PE01–PE06 小型遭遇卡、生成／情報欄位、科學依據與八項 **Not run** 驗收。**看起來像飲料不等於能直接喝，不新增固定星系或首版必做系統。**

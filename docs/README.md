@@ -79,6 +79,7 @@
 | WORLD-04 | [WORLD-04｜偽行星級太空巨獸、炸雞味翻車魚與稀有遭遇](world-04-pseudoplanet-gourmet-megafauna.md) | 使用者希望全收錄的稀有隨機巨獸；12 種原創候選、12 個事件與未執行測試 |
 | WORLD-05 | [WORLD-05｜軌道熟成、巨獸環境入味與可持久化風味狀態](world-05-orbital-marination-and-flavor-state.md) | 使用者提出近期曬熱、外緣冷卻與飲料泡澡變味；具體反應與 FC01–06 仍為提案 |
 | WORLD-06 | [WORLD-06｜飲料星球二十景、液態海與氣泡行星事故](world-06-beverage-worlds-and-carbonation-physics.md) | BV01–BV20：前 4 項映射既有 G25–G28，另 16 種新候選；3 個合理性層級，非固定 20 顆星 |
+| WORLD-07 | [WORLD-07｜普通奇景行星：類食物外觀、異星生態與可驗證生成規則](world-07-plausible-planetary-biomes.md) | 使用者確認增加較合理的普通奇景；PB01–PB12／PE01–PE06 為內容庫，非新固定星球或已實作 |
 
 ## 歷史會議摘要
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "documents": [
     {
       "id": "GUIDE",
@@ -372,6 +372,13 @@
       "title": "WORLD-06｜飲料星球二十景、液態海與氣泡行星事故",
       "category": "world",
       "status": "使用者提出環境熟成與飲料世界靈感；具體候選／事件為提案，非遊戲實作"
+    },
+    {
+      "id": "WORLD-07",
+      "path": "docs/world-07-plausible-planetary-biomes.md",
+      "title": "WORLD-07｜普通奇景行星：類食物外觀、異星生態與可驗證生成規則",
+      "category": "world",
+      "status": "使用者確認較合理普通奇景方向；PB01–PB12／PE01–PE06 皆為內容庫／提案，未實作"
     }
   ]
 }
