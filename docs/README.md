@@ -81,6 +81,12 @@
 | WORLD-06 | [WORLD-06｜飲料星球二十景、液態海與氣泡行星事故](world-06-beverage-worlds-and-carbonation-physics.md) | BV01–BV20：前 4 項映射既有 G25–G28，另 16 種新候選；3 個合理性層級，非固定 20 顆星 |
 | WORLD-07 | [WORLD-07｜普通奇景行星：類食物外觀、異星生態與可驗證生成規則](world-07-plausible-planetary-biomes.md) | 使用者確認增加較合理的普通奇景；PB01–PB12／PE01–PE06 為內容庫，非新固定星球或已實作 |
 
+## 獨立原型與因果驗證
+
+| ID | 文件 | 狀態 |
+|---|---|---|
+| SIM-01 | [SIM-01｜母國獨立存續與活世界：多身分推演、原型及驗收](sim-01-homeward-realm-and-living-world.md) | 方案 A 已確認；獨立因果原型已實作，13 項本地程式測試通過；持久化實機 Blocked |
+
 ## 歷史會議摘要
 
 | ID | 文件 | 狀態 |

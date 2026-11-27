@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-17",
+  "updated": "2026-11-27",
   "documents": [
     {
       "id": "GUIDE",
@@ -379,6 +379,13 @@
       "title": "WORLD-07｜普通奇景行星：類食物外觀、異星生態與可驗證生成規則",
       "category": "world",
       "status": "使用者確認較合理普通奇景方向；PB01–PB12／PE01–PE06 皆為內容庫／提案，未實作"
+    },
+    {
+      "id": "SIM-01",
+      "path": "docs/sim-01-homeward-realm-and-living-world.md",
+      "title": "SIM-01｜母國獨立存續與活世界：多身分推演、原型及驗收",
+      "category": "prototype",
+      "status": "方案 A 已確認；獨立因果原型已實作，13 項本地程式測試通過；實際持久化 Blocked"
     }
   ]
 }
